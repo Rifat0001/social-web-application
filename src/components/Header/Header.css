@@ -1,10 +1,22 @@
+/* header first plus icon button  */
 .f-b {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #050C36;
     box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* username  */
+.t-g {
+    background: -webkit-linear-gradient(70deg, #00E7FC 2.07%, #EC46E5 98.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 
 }
 
-
-
+/* user down arrow  */
 .d-a {
     position: relative;
     width: 16.71px;
@@ -24,4 +36,39 @@
         linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
     border-radius: 50%;
 
+}
+
+/* extra small text in button  */
+.xst {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    text-align: center;
+    margin-top: 2px;
+    color: white;
+}
+
+.btn-top-icon {
+    position: relative;
+    width: 16.71px;
+    height: 16.71px;
+    right: -35px;
+    top: -30px;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+    border-radius: 50%;
+}
+
+
+/* header input field */
+.head-input {
+    width: 324px;
+    height: 50px;
+    background: #0A123E;
+    border-radius: 99px;
 }

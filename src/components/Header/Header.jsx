@@ -2,16 +2,18 @@ import logo from '../../assets/headLogo.png'
 import text from '../../assets/SO INVERSED.png'
 import plus from '../../assets/plus-icon.png'
 import person from '../../assets/h-person.png'
-import { ChevronDownIcon } from '@heroicons/react/24/solid'
+import bell from '../../assets/bell-icon.png'
+import msg from '../../assets/msg-icon.png'
+import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 
 import './Header.css'
 const Header = () => {
     return (
-        <div className="navbar bg-[#00072D] px-4">
+        <div className="navbar bg-[#00072D] py-4 px-4">
             <div className="flex-1">
                 <img src={logo} alt="" />
                 <img src={text} className='mx-4' alt="" />
-                <button className='bg-[#050C36] shadow-2xl rounded-full w-10 h-10 f-b'>
+                <button className='f-b'>
                     <div className='flex justify-center'>
                         <img className='w-1/4' src={plus} alt="" />
                     </div>
@@ -19,9 +21,56 @@ const Header = () => {
 
                 <p className='text-white text-xs mx-4'>Create</p>
             </div>
-            <div className="flex-none gap-2">
-                <div className="form-control">
-                    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+
+            {/* search field  */}
+            <div className="flex-none gap-2 ">
+                {/* input field  */}
+                <div className="form-control relative  flex">
+                    <div>
+                        <div className='search-icon absolute top-4 left-5'>
+                            <MagnifyingGlassIcon className='w-6 text-white'></MagnifyingGlassIcon>
+                        </div>
+                        <input type="text" placeholder="Explore" className="head-input ps-16 text-xs" />
+
+                    </div>
+
+
+                </div>
+
+                {/* message icon button  */}
+
+                <div>
+                    <button className='f-b mx-2'>
+                        <div className='flex justify-center content-center mt-4'>
+                            <img className='w-1/3' src={msg} alt="" />
+                        </div>
+
+                        <div className='btn-top-icon flex justify-center'>
+                            <p className='xst'>99+</p>
+                        </div>
+                    </button>
+
+                </div>
+
+                {/* bell icon button  */}
+
+                <div>
+                    <button className='f-b mx-2'>
+                        <div className='flex justify-center content-center mt-4'>
+                            <img className='w-1/3' src={bell} alt="" />
+                        </div>
+
+                        <div className='btn-top-icon flex justify-center'>
+                            <p className='xst'>99+</p>
+                        </div>
+                    </button>
+
+                </div>
+
+
+                <div className='mx-4'>
+                    <p className='text-white text-xs'>Alexa Dain</p>
+                    <p className='t-g text-xs'>@Alexadain1</p>
                 </div>
                 <div className="dropdown dropdown-end">
                     <div tabIndex={0} className="btn btn-ghost btn-circle avatar ">
