@@ -1,0 +1,5 @@
+.home-layout {
+    display: grid;
+    grid-template-columns: 82px 307px auto 257px;
+    gap: 10px;
+}

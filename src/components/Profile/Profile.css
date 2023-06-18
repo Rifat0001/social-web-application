@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.follower {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+/* profile image position setup */
+.profile-img {
+    position: relative;
+    top: -25px;
+
+}
+
+/* follow icon setup  */
+.follow-tik {
+    position: relative;
+    top: -50px;
+    left: -8px;
+}
+
+/* follow icon setup  */
+.verify-tik {
+    position: relative;
+    top: -72px;
+    right: -80px;
+}
+
+.profile-info {
+    margin-top: -20px;
+}
+
+.profile-user {
+    background: -webkit-linear-gradient(70deg, #00E7FC 2.07%, #EC46E5 98.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.friend-req {
+    width: 286px;
+    height: 50px;
+    border: 1px solid #0A123E;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.frnd-top-icon {
+    position: relative;
+    width: 16.71px;
+    height: 16.71px;
+    right: -200px;
+    top: -45px;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+    border-radius: 50%;
+}
+
+.friend-bd {
+    width: 286px;
+    height: 96px;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+    border-radius: 22px;
+
+}
+
+.bd-tick {
+    position: relative;
+    top: -22px;
+    right: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+
+.trend {
+    width: 307px;
+    height: 108px;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+    border-radius: 22px;
+
+}
+
+.frd-bg {
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+
+.may-know {
+    width: 307px;
+    height: 398px;
+    border: 1px;
+    border-style: solid;
+
+    background:
+        linear-gradient(#00072D, #00072D)padding-box;
+    border-radius: 22px;
+
+}
+
+.each-may-know {
+    width: 130px;
+    height: 148px;
+
+    box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(129.29deg, #08E2FB 0%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(129.29deg, #08E2FB 0%, #EC46E5 100%)border-box;
+    border-radius: 22px;
+}
+
+.follow-btn {
+    width: 64px;
+    height: 10px;
+    background: linear-gradient(96.57deg, #EC46E5 6.66%, #00E7FC 49.35%, #B82BEA 93.85%);
+    border-radius: 10px;
+}
+
+.may-tik {
+    position: relative;
+    top: -20px;
+    left: 24px;
+}
+
+.may-tik-below {
+    margin-top: -10px;
+}
+
+.may-like {
+    width: 307px;
+    height: 276px;
+    border: 1px;
+    border-style: solid;
+
+    background:
+        linear-gradient(#00072D, #00072D)padding-box;
+    border-radius: 22px;
+
+}
+
+.page-info {
+    width: 266px;
+    margin-top: -1px;
+    height: 126px;
+    box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 12px 12px;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+}
+
+.like-btn {
+    width: 247px;
+    height: 32px;
+    border: none;
+
+    background: linear-gradient(95.91deg, #EC46E5 12.41%, #00E7FC 43.75%, #B82BEA 104.97%);
+    border-radius: 12px;
+}

@@ -1,9 +1,11 @@
 import Header from "./components/Header/Header"
+import HomeLayout from "./components/HomeLayout/HomeLayout"
 
 function App() {
   return (
     <div className="">
       <Header></Header>
+      <HomeLayout></HomeLayout>
     </div>
   )
 }

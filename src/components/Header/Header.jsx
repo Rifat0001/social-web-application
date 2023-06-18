@@ -5,11 +5,10 @@ import person from '../../assets/h-person.png'
 import bell from '../../assets/bell-icon.png'
 import msg from '../../assets/msg-icon.png'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/24/solid'
-
 import './Header.css'
 const Header = () => {
     return (
-        <div className="navbar bg-[#00072D] py-4 px-4">
+        <div className="navbar navborder bg-[#00072D] py-4 px-4">
             <div className="flex-1">
                 <img src={logo} alt="" />
                 <img src={text} className='mx-4' alt="" />
