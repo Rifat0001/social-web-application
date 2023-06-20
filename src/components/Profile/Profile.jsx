@@ -1,4 +1,4 @@
-import React from 'react';
+
 import bg from '../../assets/rect1.png'
 import profile from '../../assets/rect under.png'
 import follow from '../../assets/fooll.png'
