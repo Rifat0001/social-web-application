@@ -32,7 +32,7 @@ const Feeds = () => {
         </div>
         <div className="mx-6">
           <h2 className="text-lg mb-6 text-white">Image</h2>
-          <div className=" absolute left-[70%]">
+          <div className=" absolute left-[66%]">
             {/* <input
               className="bg-[#0E1A5C] my-3 rounded-full text-white ps-4"
               placeholder="1 file(s) selected"
