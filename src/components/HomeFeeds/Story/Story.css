@@ -13,3 +13,16 @@
         linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
     border-radius: 10px;
 }
+
+border-image-source: linear-gradient(180deg, #00E7FC 0%, rgba(87, 171, 243, 0) 36.98%, rgba(122, 148, 240, 0) 51.56%, #EC46E5 100%);
+
+.muhi {
+    border: 1px solid;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, #00E7FC 0%, rgba(87, 171, 243, 0) 36.98%, rgba(122, 148, 240, 0) 51.56%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#808396, #808396)padding-box,
+        linear-gradient(180deg, #00E7FC 0%, rgba(87, 171, 243, 0) 36.98%, rgba(122, 148, 240, 0) 51.56%, #EC46E5 100%)border-box;
+    border-radius: 10px;
+}
