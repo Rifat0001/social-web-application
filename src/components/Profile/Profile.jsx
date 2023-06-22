@@ -82,7 +82,7 @@ const Profile = () => {
 
             </div>
             {/* trending */}
-            <div className='trend mx-auto mt-6 '>
+            <div className='trend w-[320px] mx-auto mt-6 '>
                 <div className='mx-5 my-3'>
                     <p className='text-sm text-white'>Trending</p>
                     <div className='mt-2 flex items-center navborder pb-3'>
@@ -97,7 +97,7 @@ const Profile = () => {
             </div>
 
             {/* People You May Know */}
-            <div className='may-know mx-auto mt-6 '>
+            <div className='may-know w-[320px] mx-auto mt-6 '>
                 <div className='mx-5 my-3'>
 
                     <div className='mt-2 flex justify-between mb-3  navborder pb-3'>
@@ -115,7 +115,7 @@ const Profile = () => {
                             <button className='btn btn-xs font-bold border-0 py-2 follow-btn'>FOLLOW</button>
                         </div>
                         {/* each profiles  */}
-                        <div className='each-may-know text-center p-2 '>
+                        <div className='each-may-know text-center  p-2 '>
                             <div>
                                 <img src={m2} className='w-[60px] mx-auto' alt="" />
                                 <img src={follow} className='may-tik w-[14px]' alt="" />
@@ -148,7 +148,7 @@ const Profile = () => {
                 </div>
             </div>
             {/* Pages You May Know */}
-            <div className='may-like mx-auto mt-6 '>
+            <div className='may-like w-[320px] mx-auto mt-6 '>
                 <div className='mx-5 my-3'>
 
                     <div className='mt-2 flex justify-between mb-3   pb-3'>

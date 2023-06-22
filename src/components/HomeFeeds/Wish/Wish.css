@@ -1,0 +1,9 @@
+.wish {
+    border: 3px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #08E2FB -50.49%, #121444 20.31%, #0A123E 59.65%, #EC46E5 138.32%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(90deg, #08E2FB -50.49%, #121444 20.31%, #0A123E 59.65%, #EC46E5 138.32%)border-box;
+    border-radius: 10px;
+}
