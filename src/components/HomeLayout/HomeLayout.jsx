@@ -2,14 +2,15 @@
 import './HomeLayout.css'
 import SideIcons from '../SideIcons/SideIcons';
 import Profile from '../Profile/Profile';
-import Feeds from '../Feeds/Feeds';
+
 import Messages from '../Messages/Messages';
+import HomeFeeds from '../HomeFeeds/HomeFeeds';
 const HomeLayout = () => {
     return (
         <div className='home-layout'>
             <SideIcons></SideIcons>
             <Profile></Profile>
-            <Feeds></Feeds>
+            <HomeFeeds></HomeFeeds>
             <Messages></Messages>
         </div>
     );

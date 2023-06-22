@@ -1,0 +1,11 @@
+.give-post {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.write-post {
+    width: 600px;
+    background-color: #00072D;
+    height: 75px;
+    border-radius: 10px;
+}

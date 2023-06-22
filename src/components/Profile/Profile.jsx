@@ -18,10 +18,10 @@ import like from '../../assets/likess.png'
 import './Profile.css'
 const Profile = () => {
     return (
-        <div className='mt-2 '>
+        <div className='mt-5 '>
             {/* background image behind the profile pic  */}
             <div>
-                <img src={bg} alt="" />
+                <img src={bg} className='w-[320px]' alt="" />
             </div>
             <div className='bg-[#00072D] pb-4 frd-bg'>
                 {/* 3 parts of image  */}

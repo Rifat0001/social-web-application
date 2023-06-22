@@ -1,0 +1,10 @@
+.str-img {
+    border: 1px solid;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+    border-radius: 10px;
+}

@@ -19,7 +19,7 @@ const SideIcons = () => {
     return (
         <div className=' bg-[#0A123E] flex justify-center '>
             <div>
-                <div className='mt-2 '>
+                <div className='mt-5 '>
                     <button className='f-b home-button'>
                         <div className='flex justify-center'>
                             {/* <HomeIcon className='text-white w-1/3'></HomeIcon> */}
