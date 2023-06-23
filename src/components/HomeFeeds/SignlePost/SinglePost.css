@@ -13,6 +13,10 @@
 }
 
 .req-btn {
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
     border-bottom: 2px solid;
     border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 12.5%, #FFFFFF 50%, rgba(255, 255, 255, 0) 87.5%);
     background:
