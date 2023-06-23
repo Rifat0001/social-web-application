@@ -1,0 +1,13 @@
+.profile-user {
+    background: -webkit-linear-gradient(70deg, #00E7FC 2.07%, #EC46E5 98.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pro-side {
+    box-shadow: 2px 4px 9px 2px rgba(53, 53, 53, 0.25);
+    border-left: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #2f2f2f 0%, #ffffff 51.04%, #3c3c3c 100%) 1;
+
+}
