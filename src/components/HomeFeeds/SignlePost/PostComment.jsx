@@ -4,7 +4,7 @@ import image2 from "../../../assets/CreatePost/image-2.png";
 import image3 from "../../../assets/CreatePost/person-2.png";
 import image4 from "../../../assets/CreatePost/person-3.png";
 import fire from "../../../assets/CreatePost/fire.png";
-import haha from "../../../assets/CreatePost/haha.png";
+
 import {
   FaAngleDown,
   FaEllipsisH,
