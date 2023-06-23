@@ -187,8 +187,46 @@ const Profile = () => {
 
                 </div>
             </div>
-            {/* Start from here  */}
-            {/* muhi  */}
+            {/* Suggested groups */}
+            <div className='may-like w-[320px] mx-auto mt-6 '>
+                <div className='mx-5 my-3'>
+
+                    <div className='mt-2 flex justify-between mb-3   pb-3'>
+                        <p className='text-sm text-white font-medium'>Pages You May Like</p>
+                        <button>
+                            <img src={reload} alt="" />
+                        </button>
+                    </div>
+
+                    <div>
+                        <img className='mb-0' src={pageLike} alt="" />
+                        <div className=' page-info px-2'>
+                            <div className='flex mt-2
+                            '>
+                                <img src={pageLogo} alt="" />
+                                <div className='ms-4'>
+                                    <p className='text-white text-sm font-medium '>graphics</p>
+
+                                </div>
+                            </div>
+                            <div className='text-[#CECECE] text-xs ms-10'>
+                                <p>other </p>
+                                <p>30 people like this</p>
+                            </div>
+                            <button className='btn btn-sm mt-3 like-btn'>
+
+                                <div className='flex justify-center items-center gap-2'>
+                                    <img src={like} alt="" />
+                                    <p>Like</p>
+                                </div>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     );
