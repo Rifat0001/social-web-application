@@ -11,3 +11,11 @@
     border-image: linear-gradient(to bottom, #2f2f2f 0%, #ffffff 51.04%, #3c3c3c 100%) 1;
 
 }
+
+.req-btn {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 12.5%, #FFFFFF 50%, rgba(255, 255, 255, 0) 87.5%);
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(90deg, rgba(255, 255, 255, 0) 12.5%, #FFFFFF 50%, rgba(255, 255, 255, 0) 87.5%)border-box;
+}

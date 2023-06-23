@@ -10,10 +10,11 @@ import {
 import { HiOutlineBookmarkAlt } from "react-icons/hi";
 import "./SinglePost.css";
 import Sicon from "../../../assets/CreatePost/Sicon.png";
+import CommentSection from "./CommentSection";
 
 const SinglePost = () => {
   return (
-    <div className="bg-[#0A123E] py-5 px-6 mx-6 my-6 text-white">
+    <div className="bg-[#0A123E] py-5 px-6 mx-6 my-6 req-btn text-white">
       <div className="flex items-start justify-between">
         <div className="flex items-center justify-start gap-5">
           <img src={Img} alt="" />
@@ -64,7 +65,10 @@ const SinglePost = () => {
             </div>
           </div>
         </div>
+        
       </div>
+      
+      <CommentSection></CommentSection>
     </div>
   );
 };
