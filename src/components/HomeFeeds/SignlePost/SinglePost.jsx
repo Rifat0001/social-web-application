@@ -14,6 +14,7 @@ import CommentSection from "./CommentSection";
 import PostComment from "./PostComment";
 import Reply from "./Reply";
 import EventPost from "./EventPost";
+import PollPost from "./PollPost";
 
 const SinglePost = () => {
   return (
@@ -81,6 +82,7 @@ const SinglePost = () => {
       </div>
       <CommentSection></CommentSection>
       <EventPost></EventPost>
+      <PollPost></PollPost>
     </div>
   );
 };
