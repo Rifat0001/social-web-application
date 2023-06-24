@@ -225,13 +225,14 @@ const PostComment = () => {
                     <FaTrashAlt color="#8F8F8F" />
                   </div>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-[20px] profile-user">
-                    @Oblivion1122
-                  </span>
-                  <span className=" pr-20">
-                    It seems like you enjoy so much last night !?{" "}
-                  </span>
+                <div className="flex  gap-2">
+                  <p>
+                    <span className="text-[20px] me-2 profile-user">
+                      @Oblivion1122
+                    </span>
+                    <span className=" pr-20">
+                      It seems like you enjoy so much last night !?{" "}
+                    </span></p>
                 </div>
               </div>
               <div className="flex items-center gap-4">

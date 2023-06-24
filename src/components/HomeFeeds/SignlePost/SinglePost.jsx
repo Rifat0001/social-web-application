@@ -13,6 +13,7 @@ import Sicon from "../../../assets/CreatePost/Sicon.png";
 import CommentSection from "./CommentSection";
 import PostComment from "./PostComment";
 import Reply from "./Reply";
+import EventPost from "./EventPost";
 
 const SinglePost = () => {
   return (
@@ -79,6 +80,7 @@ const SinglePost = () => {
         <div className="divider  bg-[#00E7FC] w-[100%] h-[1px]"></div>
       </div>
       <CommentSection></CommentSection>
+      <EventPost></EventPost>
     </div>
   );
 };
