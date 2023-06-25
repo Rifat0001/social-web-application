@@ -1,11 +1,12 @@
 import bg from "../../assets/rect1.png";
 import profile from "../../assets/rect under.png";
 import follow from "../../assets/fooll.png";
-import generateicon from '../../assets/CreatePost/generatelink.png'
-import p1 from '../../assets/CreatePost/p1.png'
-import p2 from '../../assets/CreatePost/p2.png'
-import p3 from '../../assets/CreatePost/p3.png'
-import sendicon from '../../assets/CreatePost/send.png'
+import generateicon from "../../assets/CreatePost/generatelink.png";
+import award from "../../assets/CreatePost/award.png";
+import p1 from "../../assets/CreatePost/p1.png";
+import p2 from "../../assets/CreatePost/p2.png";
+import p3 from "../../assets/CreatePost/p3.png";
+import sendicon from "../../assets/CreatePost/send.png";
 import tick from "../../assets/tik.png";
 import gift from "../../assets/bd-gift.png";
 import LIcon from "../../assets/CreatePost/link.png";
@@ -380,7 +381,6 @@ const Profile = () => {
           className="bg-[#0A123E] py-2 px-4 rounded-xl my-3 w-full text-[10px]"
         />
         <div className="flex items-center justify-center gap-3">
-          
           <button className="btn border-0 btn-sm bg-gradient-to-r from-[#EC46E5] via-[#00E7FC] to-[#B82BEA] my-2">
             <div className="flex justify-center items-center gap-2">
               <img src={generateicon} alt="" />
@@ -399,13 +399,26 @@ const Profile = () => {
       <div className="trend my-7">
         <div className="flex items-center justify-center py-3 gap-2">
           <div className="flex items-center">
-            <img src={p1} alt="" className=" w-full h-full"/>
-            <img src={p2} alt="" className=" -ml-2 w-full h-full"/>
-            <img src={p3} alt="" className=" -ml-2 relative w-full h-full"/>
-            <button className="btn bg-transparent text-[10px] text-white border-none -ml-10 z-10">12+</button>
+            <img src={p1} alt="" className=" w-full h-full" />
+            <img src={p2} alt="" className=" -ml-2 w-full h-full" />
+            <img src={p3} alt="" className=" -ml-2 relative w-full h-full" />
+            <button className="btn bg-transparent text-[10px] text-white border-none -ml-10 z-10">
+              12+
+            </button>
           </div>
-          
+
           <p className="text-white">12+ Friends online</p>
+        </div>
+      </div>
+      {/* Active Now */}
+      <div className="trend my-7">
+        <div className="flex items-center justify-between py-3 gap-2 px-6">
+          <div className="text-white flex items-center justify-start">
+            <img src={award} alt="" />
+            <h2>Pro Member</h2>
+          </div>
+
+          <p className="text-white font-light">Active Now</p>
         </div>
       </div>
     </div>
