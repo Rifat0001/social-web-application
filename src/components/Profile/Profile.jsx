@@ -2,6 +2,9 @@ import bg from "../../assets/rect1.png";
 import profile from "../../assets/rect under.png";
 import follow from "../../assets/fooll.png";
 import generateicon from '../../assets/CreatePost/generatelink.png'
+import p1 from '../../assets/CreatePost/p1.png'
+import p2 from '../../assets/CreatePost/p2.png'
+import p3 from '../../assets/CreatePost/p3.png'
 import sendicon from '../../assets/CreatePost/send.png'
 import tick from "../../assets/tik.png";
 import gift from "../../assets/bd-gift.png";
@@ -390,6 +393,19 @@ const Profile = () => {
               <p className="text-xs font-bold capitalize">Copy</p>
             </div>
           </button>
+        </div>
+      </div>
+      {/* Online Friends */}
+      <div className="trend my-7">
+        <div className="flex items-center justify-center py-3 gap-2">
+          <div className="flex items-center">
+            <img src={p1} alt="" className=" w-full h-full"/>
+            <img src={p2} alt="" className=" -ml-2 w-full h-full"/>
+            <img src={p3} alt="" className=" -ml-2 relative w-full h-full"/>
+            <button className="btn bg-transparent text-[10px] text-white border-none -ml-10 z-10">12+</button>
+          </div>
+          
+          <p className="text-white">12+ Friends online</p>
         </div>
       </div>
     </div>
