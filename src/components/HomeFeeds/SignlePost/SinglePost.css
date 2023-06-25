@@ -64,7 +64,7 @@
     content: "";
     display: block;
     width: 2px;
-    height: 2px;
+    height: 656px;
     background: #00E7FC;
     margin: 0 auto;
     position: absolute;
@@ -284,4 +284,41 @@ label span:before {
 input[type="radio"]:checked+span:before {
     box-shadow: inset 0 0 0 10px #00E7FC;
     border: 1px solid #00072D;
+}
+
+/* donation part started  */
+.donate-bg {
+    background: linear-gradient(180deg, rgba(0, 7, 45, 0.71) -77.53%, rgba(0, 7, 45, 0) 179.78%);
+
+}
+
+.donate-btn {
+    width: 100px;
+    height: 35px;
+    background: linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    color: white;
+    border-radius: 10px;
+}
+
+.divider {
+    width: 560px;
+    border: 2px solid;
+    border-image: linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%) 1;
+    background:
+        linear-gradient()padding-box,
+        linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%)border-box;
+}
+
+.dona:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 485px;
+    background: #00E7FC;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    left: 45px;
+
 }

@@ -1,12 +1,14 @@
 import image3 from "../../../assets/CreatePost/person-2.png";
 import fire from "../../../assets/CreatePost/fire.png";
-import img from "../../../assets/reply/eventp.png";
-import loop from '../../../assets/reply/event-loop.png'
-import stat from '../../../assets/reply/stat.png'
+import img from "../../../assets/CreatePost/bd-person.png";
+import donation from '../../../assets/reply/donate.png'
+import raise from '../../../assets/reply/raise.png'
+// import rec from '../../../assets/reply/rec.png'
 import {
+    FaAngleDown,
     FaEllipsisH,
     FaExclamationCircle,
-
+    FaGlobe,
     FaHeart,
     FaRegComments,
     FaTrashAlt,
@@ -17,24 +19,25 @@ import Sicon from "../../../assets/CreatePost/Sicon.png";
 import "./SinglePost.css";
 import CommentSection from "./CommentSection";
 import Reply from "./Reply";
-const PollPost = () => {
+const Donation = () => {
     return (
         <div className=" mx-auto relative pt-20">
-            <div className="pb-5 poli ">
+            <div className="pb-5 dona ">
                 <div className="flex items-start justify-between">
                     <div className="flex items-center justify-start gap-5">
                         <img src={img} alt="" />
 
                         <div className="flex-col">
                             <p className="flex items-center justify-start gap-2">
-                                <span>Aliyan Farooq musk</span>
+                                <span>Oblivion Isme</span>
 
-                                <span className="text-[10px] flex items-center"><img src={loop} alt="" /> Looped a event</span>
+                                <span className="text-[10px] flex items-center">Created a donation request</span>
                             </p>
                             <p className="flex items-center gap-3">
-                                <span className="text-[16px] profile-user">@aliyan11</span>
-                                <span className="text-xs">12 S </span>
-
+                                <span className="text-[16px] profile-user">@Oblivion1122</span>
+                                <span className="text-xs">12 S</span>
+                                <FaGlobe />
+                                <FaAngleDown />
                             </p>
                         </div>
                         <div></div>
@@ -46,31 +49,24 @@ const PollPost = () => {
                     </div>
                 </div>
                 {/* poll start from here  */}
-                <div className="relative  space-y-[40px] ms-24">
-                    <p>What is better?</p>
-                    <div className="flex absolute bottom-12 right-0 z-20 border state rounded-xl items-center w-[140px] h-[28px]">
-                        <img className="ms-4" src={stat} alt="" />
-                        <p className="text-xs ms-4">59 total votes</p>
-                    </div>
-                    <div className="poll-section z-10">
-                        <form action="">
-                            <label className="relative">
-                                <input type="radio" id="google" name="radio" />
-                                <span className="">
-                                    <p>Google</p>
-                                    <p className="absolute right-12">89%</p>
-                                </span>
-
-                            </label>
-                            <label className="relative">
-                                <input type="radio" id="defont" name="radio" />
-                                <span className="">
-                                    <p>Defont</p>
-                                    <p className="absolute right-12">90%</p>
-                                </span>
-
-                            </label>
-                        </form>
+                <div className=" space-y-[40px] ms-24">
+                    {/* donation part started  */}
+                    <div className="relative">
+                        <img className="w-full" src={donation} alt="" />
+                        <div className="donate-bg absolute bottom-0 h-[102px] w-full  px-5 pt-2 ">
+                            <div className="flex justify-between items-center ">
+                                <div >
+                                    <h3 className="text-[24px] font-semibold ">So Inverse</h3>
+                                    <div className="flex items-center">
+                                        <img src={raise} alt="" className="me-1" /> 0 raised of <img src={raise} className="mx-1" alt="" /> 20000
+                                    </div>
+                                </div>
+                                <div className="mt-4">
+                                    <button className="donate-btn">Donate</button>
+                                </div>
+                            </div>
+                            <div className="divider h-2 rounded-xl"></div>
+                        </div>
                     </div>
                     <div className="text-end">
                         <div className="stats shadow bg-[rgba(255,255,255,0.10)] rounded-[12px] border-y-[1px]">
@@ -161,7 +157,4 @@ const PollPost = () => {
     );
 };
 
-
-
-
-export default PollPost;
+export default Donation;
