@@ -1,8 +1,18 @@
 import bg from "../../assets/rect1.png";
 import profile from "../../assets/rect under.png";
 import follow from "../../assets/fooll.png";
+import generateicon from '../../assets/CreatePost/generatelink.png'
+import sendicon from '../../assets/CreatePost/send.png'
 import tick from "../../assets/tik.png";
 import gift from "../../assets/bd-gift.png";
+import LIcon from "../../assets/CreatePost/link.png";
+import la1 from "../../assets/CreatePost/la1.png";
+import lp1 from "../../assets/CreatePost/lp1.png";
+import lp2 from "../../assets/CreatePost/lp2.png";
+import fire from "../../assets/CreatePost/fire.png";
+import love from "../../assets/CreatePost/love.png";
+import la2 from "../../assets/CreatePost/la2.png";
+import la3 from "../../assets/CreatePost/la3.png";
 import Followings from "../../assets/0.png";
 import bdp from "../../assets/bd-person.png";
 import uparrow from "../../assets/arrow-up.png";
@@ -217,7 +227,7 @@ const Profile = () => {
       {/* Suggested groups */}
       <div className="may-like w-[320px] mx-auto mt-6 ">
         <div className="mx-5 my-3">
-          <div className="mt-2 flex justify-between mb-3   pb-3">
+          <div className="mt-2 flex justify-between mb-3  navborder pb-3">
             <p className="text-sm text-white font-medium">Suggested Groups</p>
             <button>
               <img src={reload} alt="" />
@@ -255,6 +265,131 @@ const Profile = () => {
           <img src={Users} alt="" />
           <h2 className="profile-user">(2k)</h2>
           <p className="profile-user">Online Users</p>
+        </div>
+      </div>
+      {/* Latest Activities */}
+      <div className=" bg-[#00072D] rounded-3xl">
+        <div className=" py-6 pl-4">
+          <p className="font-bold navborder pb-3 text-white">
+            Latest Activities
+          </p>
+          {/* first card */}
+          <div className="mt-2 flex items-center navborder pb-3 text-white gap-4 py-4">
+            <img
+              src={la1}
+              alt=""
+              className=" rounded-xl border-[1px] border-[#8F8F8F]"
+            />
+            <div className="flex items-start justify-normal gap-2">
+              <div>
+                <p className="text-[12px] font-bold">
+                  {"Comment on @aqxa's post"}
+                </p>
+                <div className="flex items-center gap-1">
+                  <span className="text-[#B6B6B6] text-[10px]">
+                    Thanks its literally lite
+                  </span>
+                  <img src={fire} alt="" width={15} height={15} />
+                  <img src={love} alt="" width={15} height={15} />
+                </div>
+              </div>
+              <p className="text-[#7D7D7D] text-[10px]">12 sec ago</p>
+            </div>
+          </div>
+          {/* Second Card */}
+          <div className="mt-2 flex items-center navborder pb-3 text-white gap-4 py-4">
+            <img
+              src={la2}
+              alt=""
+              className=" rounded-xl border-[1px] border-[#8F8F8F]"
+            />
+            <div className="flex items-start justify-normal gap-2">
+              <div>
+                <p className="text-[12px] font-bold">{"You added new post"}</p>
+                <div className="flex items-center gap-1">
+                  <div className="w-[7px] h-[7px] bg-gradient-to-b from-[#00E7FC] to-[#EC46E5] rounded-full"></div>
+                  <span className="text-[#B6B6B6] text-[10px]">
+                    Hello everyone , welcome to my..
+                  </span>
+                </div>
+              </div>
+              <p className="text-[#7D7D7D] text-[10px]">1 day ago</p>
+            </div>
+          </div>
+          {/* Third Card */}
+          <div className="mt-2 flex items-center  text-white gap-4 pt-4">
+            <img
+              src={la3}
+              alt=""
+              className=" rounded-xl border-[1px] border-[#8F8F8F]"
+            />
+            <div className="flex items-start justify-normal gap-2">
+              <div>
+                <p className="text-[12px] font-bold">
+                  {"Joined new group “Art work”"}
+                </p>
+              </div>
+              <p className="text-[#7D7D7D] text-[10px]">12 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Latest products */}
+      <div className="bg-[#00072D] rounded-3xl py-5 my-7">
+        <div className="mx-5 my-3">
+          <div className="mt-2 flex justify-between mb-3 navborder  pb-3">
+            <p className="text-sm text-white font-medium">Latest products</p>
+            <button>
+              <img src={reload} alt="" />
+            </button>
+          </div>
+          {/* Group Information */}
+          <div className="flex items-center justify-between gap-2 w-full">
+            <div className="w-1/2 border-[1px] rounded-xl each-suggestion ">
+              <img src={lp1} alt="" className="w-full" />
+              <div className="text-white text-start ps-2 pt-1 pb-4">
+                <h2 className="font-bold ">Graph</h2>
+                <p className="text-sm">$55.00</p>
+              </div>
+            </div>
+            <div className="w-1/2 border-[1px] rounded-xl each-suggestion">
+              <img src={lp2} alt="" className="w-full" />
+              <div className="text-white text-start ps-2 pt-1 pb-4">
+                <h2 className="font-bold ">Clothes</h2>
+                <p className="text-sm">$50.00</p>
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      {/* Affiliate Link */}
+      <div className="bg-[#00072D] rounded-3xl px-4 py-2">
+        <div className="flex gap-1 items-center text-white">
+          <img src={LIcon} alt="" />
+          <h2>Affiliate Link</h2>
+        </div>
+        <input
+          type="text"
+          name=""
+          placeholder="123334544#?>433#8489*)_09^%&75432"
+          id=""
+          className="bg-[#0A123E] py-2 px-4 rounded-xl my-3 w-full text-[10px]"
+        />
+        <div className="flex items-center justify-center gap-3">
+          
+          <button className="btn border-0 btn-sm bg-gradient-to-r from-[#EC46E5] via-[#00E7FC] to-[#B82BEA] my-2">
+            <div className="flex justify-center items-center gap-2">
+              <img src={generateicon} alt="" />
+              <p className="text-xs font-bold capitalize">Generate Link</p>
+            </div>
+          </button>
+          <button className="btn border-0 btn-sm bg-gradient-to-r from-[#EC46E5] via-[#00E7FC] to-[#B82BEA] my-2">
+            <div className="flex justify-center items-center gap-2">
+              <img src={sendicon} alt="" />
+              <p className="text-xs font-bold capitalize">Copy</p>
+            </div>
+          </button>
         </div>
       </div>
     </div>

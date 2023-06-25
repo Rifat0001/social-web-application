@@ -162,8 +162,8 @@
 }
 
 .may-like {
-    width: 307px;
-    height: 276px;
+    width: auto;
+    height: auto;
     border: 1px;
     border-style: solid;
 
