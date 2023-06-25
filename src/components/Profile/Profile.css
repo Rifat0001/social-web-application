@@ -85,8 +85,8 @@
 
 
 .trend {
-    width: 307px;
-    height: 108px;
+    width: auto;
+    height: auto;
     border: 1px;
     border-style: solid;
     border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
@@ -96,6 +96,8 @@
     border-radius: 22px;
 
 }
+
+
 
 .frd-bg {
     border-bottom-left-radius: 22px;

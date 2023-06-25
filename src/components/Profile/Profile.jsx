@@ -16,7 +16,9 @@ import S2 from "../../assets/CreatePost/suggested2.png";
 import pageLike from "../../assets/like banners.png";
 import pageLogo from "../../assets/like logo.png";
 import like from "../../assets/likess.png";
+import Users from "../../assets/CreatePost/users.png";
 import "./Profile.css";
+
 const Profile = () => {
   return (
     <div className="mt-5 ">
@@ -221,7 +223,7 @@ const Profile = () => {
               <img src={reload} alt="" />
             </button>
           </div>
-
+          {/* Group Information */}
           <div className="flex items-center justify-between gap-2 w-full">
             <div className="w-1/2 border-[1px] rounded-xl each-suggestion p-2">
               <img src={S1} alt="" />
@@ -245,6 +247,14 @@ const Profile = () => {
             </div>
             <div></div>
           </div>
+        </div>
+      </div>
+      {/* Online User */}
+      <div className="trend my-7">
+        <div className="flex items-center justify-center py-3 gap-2">
+          <img src={Users} alt="" />
+          <h2 className="profile-user">(2k)</h2>
+          <p className="profile-user">Online Users</p>
         </div>
       </div>
     </div>
