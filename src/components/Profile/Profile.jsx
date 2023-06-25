@@ -32,6 +32,7 @@ import pageLogo from "../../assets/like logo.png";
 import like from "../../assets/likess.png";
 import Users from "../../assets/CreatePost/users.png";
 import "./Profile.css";
+import { FaAngleUp } from "react-icons/fa";
 
 const Profile = () => {
   return (
@@ -410,7 +411,7 @@ const Profile = () => {
           <p className="text-white">12+ Friends online</p>
         </div>
       </div>
-      {/* Active Now */}
+      {/* Pro Member */}
       <div className="trend my-7">
         <div className="flex items-center justify-between py-3 gap-2 px-6">
           <div className="text-white flex items-center justify-start">
@@ -420,6 +421,20 @@ const Profile = () => {
 
           <p className="text-white font-light">Active Now</p>
         </div>
+      </div>
+      {/* Copyright */}
+      <div className="text-white flex justify-between px-3 pb-4">
+        <p>© 2022 So Inverse</p>
+        <p>Language</p>
+      </div>
+      {/* Menu */}
+      <div className="text-white flex text-xs items-center justify-between px-3">
+        <span>About</span>
+        <span>Blog</span>
+        <span>Connect Us</span>
+        <span>Developers</span>
+        <span>More</span>
+        <FaAngleUp />
       </div>
     </div>
   );
