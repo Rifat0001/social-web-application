@@ -369,3 +369,32 @@ input[type="radio"]:checked+span:before {
     top: 150px;
     left: 45px;
 }
+
+/* article section design started  */
+.article-bottom {
+    width: 586px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 12px 12px;
+    opacity: 0.2800000011920929;
+    background: linear-gradient(140deg, #00E7FC 0%, #EC46E5 100%);
+}
+
+.article-button {
+    width: 45px;
+    height: 38.942px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    opacity: 0.8699999928474426;
+    background: var(--f, linear-gradient(140deg, #00E7FC 0%, #EC46E5 100%));
+}
+
+/* style for load more button  */
+.load {
+    border: 1px solid;
+    border-image: linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%)1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%)border-box;
+    border-radius: 18.558px;
+}

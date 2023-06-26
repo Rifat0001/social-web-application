@@ -18,6 +18,8 @@ import PollPost from "./PollPost";
 import Donation from "./Donation";
 import ProductSell from "./ProductSell";
 import EventWithLogo from "./EventWithLogo";
+import LoadMorePost from "./LoadMorePost";
+import ArticlePost from "./ArticlePost";
 
 const SinglePost = () => {
   return (
@@ -89,6 +91,9 @@ const SinglePost = () => {
       <Donation></Donation>
       <ProductSell></ProductSell>
       <EventWithLogo></EventWithLogo>
+      <ArticlePost></ArticlePost>
+      {/* from here post will end and show load more post  */}
+      <LoadMorePost></LoadMorePost>
     </div>
   );
 };

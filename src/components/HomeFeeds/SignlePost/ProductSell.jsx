@@ -37,7 +37,7 @@ const ProductSell = () => {
                             <p className="flex items-center justify-start gap-2">
                                 <span>Oblivion Isme</span>
 
-                                <span className="text-[10px] flex items-center">Created a donation request</span>
+                                <span className="text-[10px] flex items-center">Added a new product for sell</span>
                             </p>
                             <p className="flex items-center gap-3">
                                 <span className="text-[16px] profile-user">@Oblivion1122</span>
