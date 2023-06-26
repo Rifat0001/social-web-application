@@ -16,6 +16,7 @@ import Reply from "./Reply";
 import EventPost from "./EventPost";
 import PollPost from "./PollPost";
 import Donation from "./Donation";
+import ProductSell from "./ProductSell";
 
 const SinglePost = () => {
   return (
@@ -85,6 +86,7 @@ const SinglePost = () => {
       <EventPost></EventPost>
       <PollPost></PollPost>
       <Donation></Donation>
+      <ProductSell></ProductSell>
     </div>
   );
 };
