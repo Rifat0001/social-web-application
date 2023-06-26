@@ -17,6 +17,7 @@ import EventPost from "./EventPost";
 import PollPost from "./PollPost";
 import Donation from "./Donation";
 import ProductSell from "./ProductSell";
+import EventWithLogo from "./EventWithLogo";
 
 const SinglePost = () => {
   return (
@@ -87,6 +88,7 @@ const SinglePost = () => {
       <PollPost></PollPost>
       <Donation></Donation>
       <ProductSell></ProductSell>
+      <EventWithLogo></EventWithLogo>
     </div>
   );
 };
