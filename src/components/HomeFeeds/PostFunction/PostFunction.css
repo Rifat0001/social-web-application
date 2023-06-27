@@ -1,0 +1,22 @@
+
+.each-suggestion {
+    width: 300px;
+    height: auto;
+    box-shadow: 3px 4px 9px 1px rgba(15, 15, 15, 0.11);
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(129.29deg, #08E2FB 0%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#0A123E, #28357E, #4E5AA0, #3547A8)padding-box,
+        linear-gradient(129.29deg, #08E2FB 0%, #EC46E5 100%)border-box;
+    
+}
+
+
+.each-suggestion li a {
+    color: white;
+}
+.each-suggestion li a:hover {
+    color: azure !important;
+}

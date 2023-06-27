@@ -2,7 +2,7 @@ import Img from "../../../assets/CreatePost/bd-person.png";
 import {
   FaAngleDown,
   FaArrowRight,
-  FaEllipsisH,
+  // FaEllipsisH,
   FaGlobe,
   FaHeart,
   FaRegComments,
@@ -20,6 +20,7 @@ import ProductSell from "./ProductSell";
 import EventWithLogo from "./EventWithLogo";
 import LoadMorePost from "./LoadMorePost";
 import ArticlePost from "./ArticlePost";
+import PostFunction from "../PostFunction/PostFunction";
 
 const SinglePost = () => {
   return (
@@ -46,7 +47,8 @@ const SinglePost = () => {
         </div>
         <div className="flex-none">
           <button className="btn btn-square btn-ghost">
-            <FaEllipsisH size={30} />
+            
+            <PostFunction />
           </button>
         </div>
       </div>
