@@ -1,7 +1,6 @@
 import image3 from "../../../assets/CreatePost/person-2.png";
 import fire from "../../../assets/CreatePost/fire.png";
 import img from "../../../assets/CreatePost/bd-person.png";
-import raise from '../../../assets/reply/raise.png'
 import rage from '../../../assets/reply/rage.png'
 import info from '../../../assets/reply/inf.png'
 import contact from '../../../assets/reply/contact.png'
@@ -24,7 +23,6 @@ import "./SinglePost.css";
 import Sicon from "../../../assets/CreatePost/Sicon.png";
 import "./SinglePost.css";
 import CommentSection from "./CommentSection";
-import Reply from "./Reply";
 const ProductSell = () => {
     return (
         <div className=" mx-auto relative pt-20">

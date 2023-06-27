@@ -1,6 +1,5 @@
 import image3 from "../../../assets/CreatePost/person-2.png";
-import fire from "../../../assets/CreatePost/fire.png";
-import img from "../../../assets/CreatePost/bd-person.png";
+import img from "../../../assets/CreatePost/p1.png";
 import rage from '../../../assets/reply/rage.png'
 import info from '../../../assets/reply/inf.png'
 import contact from '../../../assets/reply/contact.png'
@@ -23,22 +22,22 @@ import "./SinglePost.css";
 import Sicon from "../../../assets/CreatePost/Sicon.png";
 import "./SinglePost.css";
 import CommentSection from "./CommentSection";
-const UserNameSell = () => {
+const UserSold = () => {
     return (
         <div className=" mx-auto relative pt-20">
             <div className="pb-5">
                 <div className="flex items-start justify-between">
                     <div className="flex items-center justify-start gap-5">
-                        <img src={img} alt="" />
+                        <img src={image3} alt="" />
 
                         <div className="flex-col">
                             <p className="flex items-center justify-start gap-2">
-                                <span>Oblivion Isme</span>
+                                <span>Juan Gutierrez</span>
 
                                 <span className="text-[10px] flex items-center">Added a username for sell</span>
                             </p>
                             <p className="flex items-center gap-3">
-                                <span className="text-[16px] profile-user">@Oblivion1122</span>
+                                <span className="text-[16px] profile-user">@juangutierrz110</span>
                                 <span className="text-xs">12 S</span>
 
                             </p>
@@ -52,9 +51,9 @@ const UserNameSell = () => {
                     </div>
                 </div>
                 {/* poll start from here  */}
-                <div className=" space-y-[40px] ms-24">
+                <div className=" space-y-[40px] mt-4 ms-24">
                     {/* product sell section  */}
-                    <div className="userSell">
+                    <div className="userSold">
                         {/* image section  */}
                         <div className="flex justify-center  py-20 rounded-2xl sell-btn w-full z-10  bottom-[-5px]">
                             <p className="user-sell text-[44px]">@windows</p>
@@ -67,7 +66,7 @@ const UserNameSell = () => {
                                     <div >
                                         <h3 className="text-[14px] mt-2 ">Username</h3>
                                         <div className="flex items-center">
-                                            <p className="text-[13px] text-[#05FF00]">Available</p>
+                                            <p className="text-[13px] text-[#f00]">Sold</p>
                                             <div className="flex ms-4 items-center">
 
                                             </div>
@@ -81,11 +80,31 @@ const UserNameSell = () => {
                             {/* more info  */}
                             <div className="mx-5 my-1">
                                 <span className="text-[19px] profile-user font-semibold ">@windows</span>
-                                <div className="flex">
-                                    <button className="conti ps-7 flex w-[154px] h-[34px] mt-1 gap-2 items-center">
+                                <div className="mt-4 flex justify-between">
+                                    <button className="conti ps-2 flex w-[174px] h-[34px] gap-2 items-center">
+                                        <img src={contact} alt="" />
+                                        <p className="text-[14px] font-medium">Contact new owner</p>
+                                    </button>
+                                    <p className="text-[14px] font-light ">Sold</p>
+                                    <button className="conti ps-2 flex w-[104px] h-[34px] gap-2 items-center">
                                         <img src={info} alt="" />
                                         <p className="text-[14px] font-medium">More info</p>
                                     </button>
+                                    <div className="conti rounded-md w-[158px] h-[73px] flex flex-col justify-center px-4">
+                                        <p className="text-[14px]">New Owner</p>
+                                        <div className="flex justify-around">
+                                            <img src={img} alt="" />
+                                            <div>
+                                                <p className="text-xs">azah azee</p>
+                                                <p className="text-xs profile-user">@azrahgohar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* product footer  */}
+                                <div className="flex  gap-2 relative left-0 top-[-40px] mt-4 items-center">
+                                    <img src={info} alt="" />
+                                    <p className="text-[14px]">Send offer to new owner on their profile. </p>
                                 </div>
                             </div>
                         </div>
@@ -126,4 +145,4 @@ const UserNameSell = () => {
     );
 };
 
-export default UserNameSell;
+export default UserSold;

@@ -44,7 +44,7 @@ const ArticlePost = () => {
                     </div>
                 </div>
                 {/* poll start from here  */}
-                <div className="mt-4 space-y-[40px] ms-24">
+                <div className="mt-4 space-y-[40px] ms-28">
                     {/* article section started */}
                     <div>
                         <img src={artbg} alt="" />
@@ -83,19 +83,13 @@ const ArticlePost = () => {
                     </div>
                 </div>
             </div>
-            <div className="ps-14">
-                <div className="divider bg-[#EC46E5] w-full h-[1px]"></div>
-            </div>
+
             <div className="">
                 {/* <!-- Card 1 --> */}
-                <div className="transform ps-10 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
-                    {/* <!-- Line that connecting the box with the vertical line --> */}
 
-
-                    {/* <!-- Content that showing in the box --> */}
-
+                <div className=" flex justify-end">
+                    <div className="divider  bg-[#00E7FC] w-[100%] h-[1px]"></div>
                 </div>
-
                 <CommentSection></CommentSection>
             </div>
         </div >
