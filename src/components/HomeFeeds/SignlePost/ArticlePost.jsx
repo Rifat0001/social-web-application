@@ -1,31 +1,19 @@
-import image3 from "../../../assets/CreatePost/person-2.png";
-import fire from "../../../assets/CreatePost/fire.png";
 import profile from '../../../assets/reply/bd-person.png'
 import artbg from '../../../assets/reply/artic.png'
 import btnBG from '../../../assets/reply/btn.png'
-import rage from '../../../assets/reply/rage.png'
-import info from '../../../assets/reply/inf.png'
-import contact from '../../../assets/reply/contact.png'
-import pro1 from "../../../assets/reply/product1.png";
-import pro2 from "../../../assets/reply/product2.png";
 // import rec from '../../../assets/reply/rec.png'
 import {
     FaAngleDown,
     FaEllipsisH,
-    FaExclamationCircle,
     FaGlobe,
-    FaStar,
-    FaStarHalfAlt,
     FaHeart,
-    FaRegComments,
-    FaTrashAlt,
+    FaRegComments
 } from "react-icons/fa";
 import { HiOutlineBookmarkAlt } from "react-icons/hi";
 import "./SinglePost.css";
 import Sicon from "../../../assets/CreatePost/Sicon.png";
 import "./SinglePost.css";
 import CommentSection from "./CommentSection";
-import Reply from "./Reply";
 const ArticlePost = () => {
     return (
         <div className=" mx-auto relative pt-20">
@@ -63,11 +51,11 @@ const ArticlePost = () => {
                         <div className="article-bottom relative">
 
                         </div>
-                        <div className="absolute top-[360px] left-[120px]">
+                        <div className="absolute top-[380px] left-[120px]">
                             <p className="text-[15px]  text-white font-[600]">The Concept Of Art</p>
                             <p className="text-[12px] font-light">Art can really take many forms and can really describe all possibilities</p>
                         </div>
-                        <button className="article-button flex items-center justify-center absolute top-[335px] left-[370px]">
+                        <button className="article-button flex items-center justify-center absolute top-[350px] left-[370px]">
                             <img src={btnBG} className="" alt="" />
                         </button>
                     </div>
