@@ -42,9 +42,9 @@ const PostComment = () => {
             <div></div>
           </div>
           <div className="flex-none">
-            <button className="btn btn-square btn-ghost">
+            <div className="btn btn-square btn-ghost">
               <FaEllipsisH size={30} />
-            </button>
+            </div>
           </div>
         </div>
         <div className="space-y-[40px]">
