@@ -45,6 +45,7 @@ const SinglePost = () => {
           </div>
           <div></div>
         </div>
+        {/* 3 dot dropdown menu */}
         <div className="flex-none">
           <button className="btn btn-square btn-ghost">
             

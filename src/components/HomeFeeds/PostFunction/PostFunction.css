@@ -1,22 +1,59 @@
-
 .each-suggestion {
-    width: 300px;
-    height: auto;
-    box-shadow: 3px 4px 9px 1px rgba(15, 15, 15, 0.11);
-    border-radius: 5px;
-    border: 1px;
-    border-style: solid;
-    border-image: linear-gradient(129.29deg, #08E2FB 0%, #EC46E5 100%) 1;
-    background:
-        linear-gradient(#0A123E, #28357E, #4E5AA0, #3547A8)padding-box,
-        linear-gradient(129.29deg, #08E2FB 0%, #EC46E5 100%)border-box;
-    
+  width: 300px;
+  height: auto;
+  box-shadow: 3px 4px 9px 1px rgba(15, 15, 15, 0.11);
+  border-radius: 5px;
+  border: 1px;
+  border-style: solid;
+  border-image: linear-gradient(129.29deg, #08e2fb 0%, #ec46e5 100%) 1;
+  background: linear-gradient(#0a123e, #28357e, #4e5aa0, #3547a8) padding-box,
+    linear-gradient(129.29deg, #08e2fb 0%, #ec46e5 100%) border-box;
 }
-
 
 .each-suggestion li a {
-    color: white;
+  color: white;
 }
 .each-suggestion li a:hover {
-    color: azure !important;
+  color: azure !important;
 }
+
+.modal-bg {
+  border-radius: 12px;
+  border:  var(--g, rgba(0, 0, 0, 0.2));
+  background: var(
+    --dd,
+    linear-gradient(
+      180deg,
+      #0a123e 0%,
+      rgba(40, 53, 126, 0.98) 29.45%,
+      #4e5aa0 54.69%,
+      rgba(53, 71, 168, 0.6) 100%
+    )
+  );
+  box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+}
+
+.textArea {
+    border-radius: 22px;
+    color: white;
+background: #00072D;
+box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.25);
+width: 434px;
+height: 149px;
+flex-shrink: 0;
+}
+
+.btn-border{
+    border: 1px;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-radius: 22px;
+    padding: 10px 16px;
+    border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+}
+
