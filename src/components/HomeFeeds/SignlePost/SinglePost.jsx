@@ -21,6 +21,7 @@ import EventWithLogo from "./EventWithLogo";
 import LoadMorePost from "./LoadMorePost";
 import ArticlePost from "./ArticlePost";
 import PostFunction from "../PostFunction/PostFunction";
+import UserNameSell from "./UserNameSell";
 
 const SinglePost = () => {
   return (
@@ -48,7 +49,7 @@ const SinglePost = () => {
         {/* 3 dot dropdown menu */}
         <div className="flex-none">
           <button className="btn btn-square btn-ghost">
-            
+
             <PostFunction />
           </button>
         </div>
@@ -95,6 +96,7 @@ const SinglePost = () => {
       <ProductSell></ProductSell>
       <EventWithLogo></EventWithLogo>
       <ArticlePost></ArticlePost>
+      <UserNameSell></UserNameSell>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
     </div>
