@@ -22,6 +22,7 @@ import LoadMorePost from "./LoadMorePost";
 import ArticlePost from "./ArticlePost";
 import PostFunction from "../PostFunction/PostFunction";
 import UserNameSell from "./UserNameSell";
+import UserSold from "./UserSold";
 
 const SinglePost = () => {
   return (
@@ -97,6 +98,7 @@ const SinglePost = () => {
       <EventWithLogo></EventWithLogo>
       <ArticlePost></ArticlePost>
       <UserNameSell></UserNameSell>
+      <UserSold></UserSold>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
     </div>

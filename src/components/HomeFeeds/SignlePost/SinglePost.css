@@ -398,3 +398,46 @@ input[type="radio"]:checked+span:before {
         linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%)border-box;
     border-radius: 18.558px;
 }
+
+
+/* username sell desgin started  */
+.userSell {
+    width: 587px;
+    height: 380px;
+    border: 1px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+}
+
+.user-sell {
+    background: -webkit-linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.sell-btn {
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 12.5%, #FFFFFF 50%, rgba(255, 255, 255, 0) 87.5%);
+    background:
+        linear-gradient(#080E32, #080E32)padding-box,
+        linear-gradient(90deg, rgba(255, 255, 255, 0) 12.5%, #FFFFFF 50%, rgba(255, 255, 255, 0) 87.5%)border-box;
+}
+
+.userSold {
+    width: 587px;
+    height: 430px;
+    border: 1px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+}
