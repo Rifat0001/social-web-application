@@ -52,12 +52,12 @@
     content: "";
     display: block;
     width: 2px;
-    height: 342px;
+    height: 335px;
     background: #00E7FC;
     margin: 0 auto;
     position: absolute;
-    top: 60px;
-    left: 62px;
+    top: 67px;
+    left: 87px;
 }
 
 .evet:before {

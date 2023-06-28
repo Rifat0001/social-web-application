@@ -86,9 +86,9 @@ const PostComment = () => {
       </div>
       <div className="">
         {/* <!-- Card 1 --> */}
-        <div className="transform ps-10 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform ps-16 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1  flex-col md:flex-row space-y-4 md:space-y-0">
           {/* <!-- Line that connecting the box with the vertical line --> */}
-          <div className="w-8 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
+          <div className="w-11 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
 
           {/* <!-- Content that showing in the box --> */}
           <div className="time2">
@@ -138,9 +138,9 @@ const PostComment = () => {
         </div>
         {/* second card */}
 
-        <div className="transform ps-10 second-comment transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform ps-16 second-comment transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* <!-- Line that connecting the box with the vertical line --> */}
-          <div className="w-8 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
+          <div className="w-12 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
 
           {/* <!-- Content that showing in the box --> */}
           <div className="flex items-start justify-start gap-2">
@@ -189,9 +189,9 @@ const PostComment = () => {
           </div>
         </div>
         {/* reply of comment 3 */}
-        <div className="transform transition cursor-pointer  ml-10 relative flex items-center px-6 ps-[100px] py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform transition cursor-pointer  ml-10 relative flex items-center px-6 ps-32 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* <!-- Line that connecting the box with the vertical line --> */}
-          <div className="w-[30px] h-0.5 bg-[#00E7FC] absolute top-8 left-16 z-0"></div>
+          <div className="w-[30px] h-0.5 bg-[#00E7FC] absolute top-8 left-[88px] z-0"></div>
 
           {/* <!-- Content that showing in the box --> */}
           <div className="time2">
@@ -241,9 +241,9 @@ const PostComment = () => {
           </div>
         </div>
         {/* reply of comment 3 */}
-        <div className="transform transition cursor-pointer  ml-10 relative flex items-center px-6 ps-[100px] py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform transition cursor-pointer  ml-10 relative flex items-center px-6 ps-32 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* <!-- Line that connecting the box with the vertical line --> */}
-          <div className="w-[30px] h-0.5 bg-[#00E7FC] absolute top-8 left-16 z-0"></div>
+          <div className="w-[30px] h-0.5 bg-[#00E7FC] absolute top-8 left-[88px] z-0"></div>
 
           {/* <!-- Content that showing in the box --> */}
           <div className="time2">
@@ -293,9 +293,9 @@ const PostComment = () => {
           </div>
         </div>
         {/* third card */}
-        <div className="transform transition cursor-pointer  ml-10 relative flex ps-10 items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform transition cursor-pointer  ml-10 relative flex ps-16 items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* <!-- Line that connecting the box with the vertical line --> */}
-          <div className="w-8 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
+          <div className="w-11 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
 
           {/* <!-- Content that showing in the box --> */}
           <div className="flex items-start justify-start gap-2">
