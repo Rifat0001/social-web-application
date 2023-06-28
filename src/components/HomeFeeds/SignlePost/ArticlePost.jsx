@@ -44,18 +44,18 @@ const ArticlePost = () => {
                     </div>
                 </div>
                 {/* poll start from here  */}
-                <div className="mt-4 space-y-[40px] ms-28">
+                <div className="mt-4 space-y-[40px] ms-20">
                     {/* article section started */}
                     <div>
-                        <img src={artbg} alt="" />
+                        <img src={artbg} alt="" className='w-full' />
                         <div className="article-bottom relative">
 
                         </div>
-                        <div className="absolute top-[380px] left-[120px]">
+                        <div className="absolute top-[400px] left-[120px]">
                             <p className="text-[15px]  text-white font-[600]">The Concept Of Art</p>
                             <p className="text-[12px] font-light">Art can really take many forms and can really describe all possibilities</p>
                         </div>
-                        <button className="article-button flex items-center justify-center absolute top-[350px] left-[370px]">
+                        <button className="article-button flex items-center justify-center absolute top-[365px] left-[370px]">
                             <img src={btnBG} className="" alt="" />
                         </button>
                     </div>

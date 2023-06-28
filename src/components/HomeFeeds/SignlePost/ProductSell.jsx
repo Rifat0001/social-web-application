@@ -58,8 +58,8 @@ const ProductSell = () => {
                     <div>
                         {/* image section  */}
                         <div className="flex w-full z-10 relative bottom-[-5px]">
-                            <img src={pro1} alt="" />
-                            <img src={pro2} alt="" />
+                            <img className="w-full" src={pro1} alt="" />
+                            <img className="w-full" src={pro2} alt="" />
                         </div>
                         {/* product description  */}
                         <div className="product-description z-0 border">
@@ -137,9 +137,9 @@ const ProductSell = () => {
             </div>
             <div className="">
                 {/* <!-- Card 1 --> */}
-                <div className="transform ps-10 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
+                <div className="transform ps-16 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
                     {/* <!-- Line that connecting the box with the vertical line --> */}
-                    <div className="w-8 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
+                    <div className="w-11 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
 
                     {/* <!-- Content that showing in the box --> */}
                     <div className="time2">

@@ -326,7 +326,7 @@ input[type="radio"]:checked+span:before {
 /* product selling sections  */
 
 .product-description {
-    width: 587px;
+    width: 609px;
     height: 222px;
     border: 1px solid;
     border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
@@ -362,7 +362,7 @@ input[type="radio"]:checked+span:before {
     content: "";
     display: block;
     width: 2px;
-    height: 583px;
+    height: 592px;
     background: #00E7FC;
     margin: 0 auto;
     position: absolute;
@@ -372,7 +372,7 @@ input[type="radio"]:checked+span:before {
 
 /* article section design started  */
 .article-bottom {
-    width: 586px;
+    width: 625px;
     height: 63px;
     flex-shrink: 0;
     border-radius: 0px 0px 12px 12px;
@@ -402,7 +402,7 @@ input[type="radio"]:checked+span:before {
 
 /* username sell desgin started  */
 .userSell {
-    width: 587px;
+    width: 610px;
     height: 380px;
     border: 1px solid;
     border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
@@ -432,7 +432,7 @@ input[type="radio"]:checked+span:before {
 }
 
 .userSold {
-    width: 587px;
+    width: 610px;
     height: 430px;
     border: 1px solid;
     border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
