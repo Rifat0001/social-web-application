@@ -8,22 +8,24 @@ import voice from '../../../assets/reply/voice.svg'
 const AdComment = () => {
     return (
         <div >
-
             <div className="ps-10 req-btn pb-5">
                 <div className="flex items-center justify-start gap-2">
                     <img src={Img} width={45} className="mb-12" height={38} alt="" />
                     <div>
                         <div className="bg-[#00072D] h-[95px] rounded-md w-[610px]">
-                            <div>
+                            <div className="relative">
                                 <input type="text" name="" className="bg-[#00072D] rounded-md h-[95px] w-full p-3 z-0" placeholder="Write a comment and press enter" />
                             </div>
-                            <div className="flex relative  top-[-30px] z-10 right-[-470px] gap-2">
-                                <button><img src={send} alt="" /></button>
-                                <button><img src={img} alt="" /></button>
-                                <button><img src={gif} alt="" /></button>
-                                <button><img src={voice} alt="" /></button>
-                                <button><img src={emoji} alt="" /></button>
+                            <div className="absolute bottom-14 z-10 right-8 ">
+                                <div className="flex gap-2">
+                                    <button><img src={send} alt="" /></button>
+                                    <button><img src={img} alt="" /></button>
+                                    <button><img src={gif} alt="" /></button>
+                                    <button><img src={voice} alt="" /></button>
+                                    <button><img src={emoji} alt="" /></button>
+                                </div>
                             </div>
+
                         </div>
                     </div>
 
