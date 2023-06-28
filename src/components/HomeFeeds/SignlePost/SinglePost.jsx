@@ -23,6 +23,7 @@ import ArticlePost from "./ArticlePost";
 import PostFunction from "../PostFunction/PostFunction";
 import UserNameSell from "./UserNameSell";
 import UserSold from "./UserSold";
+import CourseSell from "./CourseSell";
 
 const SinglePost = () => {
   return (
@@ -99,6 +100,7 @@ const SinglePost = () => {
       <ArticlePost></ArticlePost>
       <UserNameSell></UserNameSell>
       <UserSold></UserSold>
+      <CourseSell></CourseSell>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
     </div>
