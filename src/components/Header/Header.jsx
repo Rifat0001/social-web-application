@@ -81,7 +81,7 @@ const Header = () => {
                     </div>
                     <p className="text-white ">Me : okok</p>
                   </div>
-                  <div>5 m</div>
+                  <div> <p className="text-white ">5 m</p></div>
                 </div>
               </div>
             </li>
@@ -96,7 +96,7 @@ const Header = () => {
                     </div>
                     <p className="text-white ">Me : okok</p>
                   </div>
-                  <div>5 m</div>
+                  <div> <p className="text-white ">5 m</p></div>
                 </div>
               </div>
             </li>
