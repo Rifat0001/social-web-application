@@ -48,13 +48,8 @@ const SinglePost = () => {
         </div>
         {/* 3 dot dropdown menu */}
         <div className="flex-none">
-<<<<<<< HEAD
           <div className="btn btn-square btn-ghost z-10">
             
-=======
-          <button className="btn btn-square btn-ghost">
-
->>>>>>> fe9e4eb9ce01e6a43bce3fa68e2551f0b9897dea
             <PostFunction />
           </div>
         </div>
