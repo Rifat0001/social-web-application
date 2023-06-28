@@ -24,6 +24,7 @@ import PostFunction from "../PostFunction/PostFunction";
 import UserNameSell from "./UserNameSell";
 import UserSold from "./UserSold";
 import CourseSell from "./CourseSell";
+import DpPost from "./DpPost";
 
 const SinglePost = () => {
   return (
@@ -101,6 +102,7 @@ const SinglePost = () => {
       <UserNameSell></UserNameSell>
       <UserSold></UserSold>
       <CourseSell></CourseSell>
+      <DpPost></DpPost>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
     </div>
