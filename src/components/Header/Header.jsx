@@ -15,11 +15,11 @@ import "./Header.css";
 import { useEffect, useState } from "react";
 const Header = () => {
   const [notificationData, setNotificationData] = useState([])
-  useEffect(()=>{
+  useEffect(() => {
     fetch('notification.json')
-    .then(res => res.json())
-    .then(data => setNotificationData(data))
-  },[])
+      .then(res => res.json())
+      .then(data => setNotificationData(data))
+  }, [])
   const [isNotificationOn, setIsNotificationOn] = useState(true);
   const handleDivClick = () => {
     setIsNotificationOn((prevState) => !prevState);
@@ -68,38 +68,39 @@ const Header = () => {
           </button>
           <ul
             tabIndex={0}
-            className="dropdown-content z-[100] menu p-2 shadow bg-notification rounded-box w-[430px]"
+            className="dropdown-content  z-[100] menu p-2 shadow bg-msg rounded-md w-[430px]"
           >
-            <li className="text-white  navborders">
-              <div className="flex items-start gap-5">
+            <li className="msg-border">
+              <div className="flex  items-start gap-5">
                 <img src={kevin} alt="" />
                 <div className="flex justify-between items-start gap-[138px]">
                   <div className=" space-y-3">
                     <div>
-                      <h2>Kevin Alexander </h2>
+                      <h2 className="text-white ">Kevin Alexander </h2>
                       <p className="gradient-text">@kevinalexa11</p>
                     </div>
-                    <p className="">Me : okok</p>
+                    <p className="text-white ">Me : okok</p>
                   </div>
                   <div>5 m</div>
                 </div>
               </div>
             </li>
-            <li className="text-white hover:text-white navborders">
+            <li className=" msg-border">
               <div className="flex items-start gap-5">
                 <img src={kevin} alt="" />
                 <div className="flex justify-between items-start gap-[138px]">
                   <div className=" space-y-3">
                     <div>
-                      <h2>Kevin Alexander </h2>
+                      <h2 className="text-white ">Kevin Alexander </h2>
                       <p className="gradient-text">@kevinalexa11</p>
                     </div>
-                    <p className="">Me : okok</p>
+                    <p className="text-white ">Me : okok</p>
                   </div>
                   <div>5 m</div>
                 </div>
               </div>
             </li>
+            <button className="text-white mt-2">Sell All</button>
           </ul>
         </div>
 
@@ -114,34 +115,34 @@ const Header = () => {
               <p className="xst">99+</p>
             </div>
           </button>
-          <div className="dropdown-content z-[100] menu p-2 shadow bg-notification rounded-box w-[430px]">
+          <div className="dropdown-content z-[100] menu p-2 shadow bg-msg rounded-md w-[430px]">
             <button className="flex text-white items-center justify-start gap-3 trends border-[1px] border-l-0 my-3 -ml-2" onClick={handleDivClick}>
               <img src={isNotificationOn ? notificationIcon : offnotification} alt="" />
               <h2>{isNotificationOn ? 'Turn off the notification sound' : 'Turn on the notification sound'}</h2>
             </button>
-            <ul tabIndex={0}>
+            <ul className="" tabIndex={0}>
               {
-                notificationData.map((singleItem) => 
-                <li key={singleItem.id} className="text-white  navborders">
-                  <div className="flex items-start gap-5">
-                  <img src={singleItem.img} alt="" />
-                  <div className="flex justify-between items-start gap-[138px]">
-                    <div className="">
-                      <div className="flex items-center gap-2 pb-0">
-                        <h2 className="font-bold">{singleItem.name} </h2>
-                        <p className="text-xs">{singleItem.comment}</p>
-                      </div>
-                      <p className="gradient-text pb-3">@kevinalexa11</p>
-                      <div className="flex items-center gap-2">
-                        <img src={singleItem.icon} alt=""  className="mt-1"/>
-                        <p>{singleItem.time}</p>
+                notificationData.map((singleItem) =>
+                  <li key={singleItem.id} className=" msg-border  ">
+                    <div className="flex items-start gap-5">
+                      <img src={singleItem.img} alt="" />
+                      <div className="flex justify-between items-start gap-[138px]">
+                        <div className="">
+                          <div className="flex items-center gap-2 pb-0">
+                            <h2 className="font-semibold text-white ">{singleItem.name} </h2>
+                            <p className="text-xs text-white">{singleItem.comment}</p>
+                          </div>
+                          <p className="gradient-text pb-3">@kevinalexa11</p>
+                          <div className="flex items-center gap-2">
+                            <img src={singleItem.icon} alt="" className="mt-1" />
+                            <p className="text-white ">{singleItem.time}</p>
+
+                          </div>
+                        </div>
 
                       </div>
                     </div>
-                    
-                  </div>
-                </div>
-                </li>)
+                  </li>)
               }
               <li className="text-white  navborders">
                 <div className="flex items-start gap-5">
@@ -177,7 +178,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+            className="mt-3 p-2  shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
           >
             <li>
               <a className="justify-between">

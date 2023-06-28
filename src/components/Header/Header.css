@@ -28,16 +28,12 @@
     border-radius: var(--border-radius); */
   border: 1px;
   border-style: solid;
-  border-image: linear-gradient(
-      to bottom,
+  border-image: linear-gradient(to bottom,
       #08e2fb 0%,
       #0a123e 51.04%,
-      #ec46e5 100%
-    )
-    1;
+      #ec46e5 100%) 1;
   background: linear-gradient(#0a123e, #0a123e) padding-box,
-    linear-gradient(to bottom, #08e2fb 0%, #0a123e 51.04%, #ec46e5 100%)
-      border-box;
+    linear-gradient(to bottom, #08e2fb 0%, #0a123e 51.04%, #ec46e5 100%) border-box;
   border-radius: 50%;
 }
 
@@ -60,16 +56,12 @@
   top: -30px;
   border: 1px;
   border-style: solid;
-  border-image: linear-gradient(
-      to bottom,
+  border-image: linear-gradient(to bottom,
       #08e2fb 0%,
       #0a123e 51.04%,
-      #ec46e5 100%
-    )
-    1;
+      #ec46e5 100%) 1;
   background: linear-gradient(#0a123e, #0a123e) padding-box,
-    linear-gradient(to bottom, #08e2fb 0%, #0a123e 51.04%, #ec46e5 100%)
-      border-box;
+    linear-gradient(to bottom, #08e2fb 0%, #0a123e 51.04%, #ec46e5 100%) border-box;
   border-radius: 50%;
 }
 
@@ -83,20 +75,15 @@
 
 .navborder {
   border-bottom: 1px solid;
-  border-image: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 12.5%,
-    #ffffff 50%,
-    rgba(255, 255, 255, 0) 87.5%
-  );
+  border-image: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 12.5%,
+      #ffffff 50%,
+      rgba(255, 255, 255, 0) 87.5%);
   background: linear-gradient(#00072d, #00072d) padding-box,
-    linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0) 12.5%,
-        #ffffff 50%,
-        rgba(255, 255, 255, 0) 87.5%
-      )
-      border-box;
+    linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 12.5%,
+      #ffffff 50%,
+      rgba(255, 255, 255, 0) 87.5%) border-box;
   /* border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 12.5%, #FFFFFF 50%, rgba(255, 255, 255, 0) 87.5%); */
 }
 
@@ -113,35 +100,42 @@
 
 .bg-notification {
   border-radius: 5px;
-  background: var(
-    --g,
-    linear-gradient(
-      180deg,
-      #0a123e 0%,
-      rgba(40, 53, 126, 0.98) 29.45%,
-      #4e5aa0 54.69%,
-      rgba(53, 71, 168, 0.6) 100%
-    )
-  );
+  background: var(--g,
+      linear-gradient(180deg,
+        #0a123e 0%,
+        rgba(40, 53, 126, 0.98) 29.45%,
+        #4e5aa0 54.69%,
+        rgba(53, 71, 168, 0.6) 100%));
+}
+
+/* message bg  */
+.bg-msg {
+  border: 2px solid;
+  border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+  background:
+    linear-gradient(180.33deg, #0A123E 4.94%, rgba(40, 53, 126, 0.984375) 48.86%, #4E5AA0 86.51%, rgba(53, 71, 168, 0.6) 154.09%)padding-box,
+    linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+  border-radius: 5px;
+}
+
+.msg-border {
+  border-bottom: 2px;
+  border-style: solid;
+  border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 12.5%, #FFFFFF 50%, rgba(255, 255, 255, 0) 87.5%) 1;
 }
 
 .navborders {
   border-bottom: 1px solid;
-  border-image: linear-gradient(
-    90deg,
-    #3547a8 12.5%,
-    #ffffff 50%,
-    #3547a8 87.5%
-  );
+  border-image: linear-gradient(90deg,
+      #3547a8 12.5%,
+      #ffffff 50%,
+      #3547a8 87.5%);
 
   background: linear-gradient() padding-box,
-    linear-gradient(
-        90deg,
-        #3547a8 12.5%,
-        #ffffff 50%,
-        #3547a8 87.5%
-      )
-      border-box;
+    linear-gradient(90deg,
+      #3547a8 12.5%,
+      #ffffff 50%,
+      #3547a8 87.5%) border-box;
 }
 
 .trends {
@@ -153,9 +147,9 @@
   border-image-slice: 0 1 0 0;
   border-image: linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
   background:
-      linear-gradient(#00072D, #00072D)padding-box,
-      linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
-      border-radius: 0px 12px 12px 0px;
-      border-top-left-radius: 0; 
+    linear-gradient(#00072D, #00072D)padding-box,
+    linear-gradient(to bottom, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+  border-radius: 0px 12px 12px 0px;
+  border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
