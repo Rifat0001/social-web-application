@@ -103,7 +103,8 @@ const EventOnlyCount = () => {
 
                                         </div>
                                     </div>
-                                    <div className="count flex">
+                                    <div className="count flex items-center ms-10">
+                                        <p className="text-[21px] font-medium">Started</p>
                                         <div className="dates mt-2 grid grid-cols-4 gap-6 text-center ms-11 ">
                                             <div className="">
                                                 <div className="tar rounded-full">
@@ -131,26 +132,7 @@ const EventOnlyCount = () => {
                                             </div>
                                         </div>
                                         {/* 2nd block  */}
-                                        <div className="flex ms-20 mt-2">
-                                            <div className="jo">
-                                                <button className="join w-[112px] h-[37px] flex items-center tar justify-center">
-                                                    <img src={plus} alt="" className="w-4 h-4 me-2" />
-                                                    <p className="font-bold text-[lg]">Join</p>
-                                                </button>
-                                                <div className="flex items-center ms-[-10px] mt-1">
-                                                    <img src={cal} alt="" /> <p className="ms-2 text-xs">12-November-2022</p>
-                                                </div>
-                                            </div>
-                                            <div className="jo ms-10">
-                                                <button className="join w-[112px] h-[37px] flex items-center tar justify-center">
-                                                    <img src={int} alt="" className="w-4 h-4 me-2" />
-                                                    <p className="font-bold text-[lg]">Interested</p>
-                                                </button>
-                                                <div className="flex items-center ms-[10px] mt-1">
-                                                    <img src={cal} alt="" /> <p className="ms-2 text-xs">27-Jan-2023</p>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
