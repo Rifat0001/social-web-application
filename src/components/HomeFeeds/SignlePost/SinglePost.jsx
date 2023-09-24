@@ -26,6 +26,9 @@ import UserSold from "./UserSold";
 import CourseSell from "./CourseSell";
 import DpPost from "./DpPost";
 import EventOnlyCount from "./EventOnlyCount";
+import VideoPOst from "./VideoPOst";
+import MovingService from "./MovingService";
+import MovingSectionWithOutButton from "./MovingSectionWithOutButton";
 
 const SinglePost = () => {
   return (
@@ -105,8 +108,13 @@ const SinglePost = () => {
       <CourseSell></CourseSell>
       <DpPost></DpPost>
       <EventOnlyCount></EventOnlyCount>
+
+      <MovingService></MovingService>
+      <MovingSectionWithOutButton></MovingSectionWithOutButton>
+      <VideoPOst></VideoPOst>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
+
     </div>
   );
 };

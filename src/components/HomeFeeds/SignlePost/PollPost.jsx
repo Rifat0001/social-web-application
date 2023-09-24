@@ -103,7 +103,7 @@ const PollPost = () => {
                 {/* <!-- Card 1 --> */}
                 <div className="transform ps-16 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
                     {/* <!-- Line that connecting the box with the vertical line --> */}
-                    <div className="w-11 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
+                    <div className="w-11 h-0.5 bg-[#00E7FC] absolute top-8 left-[5px] z-0"></div>
 
                     {/* <!-- Content that showing in the box --> */}
                     <div className="time2">

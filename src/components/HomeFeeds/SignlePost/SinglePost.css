@@ -73,6 +73,19 @@
 
 }
 
+.videoLine:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 500px;
+    background: #00E7FC;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    left: 45px;
+
+}
+
 .poli:before {
     content: "";
     display: block;
@@ -111,7 +124,7 @@
     background:
         linear-gradient(#0A123E, #0A123E)padding-box,
         linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .family {
@@ -166,7 +179,9 @@
 }
 
 .event-date {
-    background: linear-gradient(136.83deg, #00E7FC 7.24%, #EC46E5 94.27%);
+    border-radius: 12px;
+    border: px solid var(--ggg, #00E7FC);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 }
 
@@ -302,12 +317,10 @@ input[type="radio"]:checked+span:before {
 }
 
 .divider {
-    width: 560px;
-    border: 2px solid;
-    border-image: linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%) 1;
-    background:
-        linear-gradient()padding-box,
-        linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%)border-box;
+    width: 540px;
+    border: 1px solid;
+    color: #EC46E5;
+
 }
 
 .dona:before {

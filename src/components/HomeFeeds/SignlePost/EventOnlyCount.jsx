@@ -72,7 +72,7 @@ const EventOnlyCount = () => {
                                 <div className="absolute right-2 p-1 top-1 ">
                                     <button className="but text-[9px]">See more</button>
                                 </div>
-                                <div className="flex absolute top-56 left-14 z-20">
+                                <div className="flex absolute top-56 left-[5px]4 z-20">
                                     <div className="text-lg event-date text-center rounded-lg w-12 p-2 font-semibold text-[#0A123E] me-4">
                                         <p>23</p>
                                         <p>Nov</p>
@@ -169,7 +169,7 @@ const EventOnlyCount = () => {
                 {/* <!-- Card 1 --> */}
                 <div className="transform ps-10 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
                     {/* <!-- Line that connecting the box with the vertical line --> */}
-                    <div className="w-8 h-0.5 bg-[#00E7FC] absolute top-8 left-1 z-0"></div>
+                    <div className="w-8 h-0.5 bg-[#00E7FC] absolute top-8 left-[5px] z-0"></div>
 
                     {/* <!-- Content that showing in the box --> */}
                     <div className="time2">
