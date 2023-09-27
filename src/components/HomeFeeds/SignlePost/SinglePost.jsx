@@ -30,6 +30,7 @@ import VideoPOst from "./VideoPOst";
 import MovingService from "./MovingService";
 import MovingSectionWithOutButton from "./MovingSectionWithOutButton";
 import Test from "./Test";
+import FeatureDoublePost from "./FeatureDoublePost";
 
 const SinglePost = () => {
   return (
@@ -113,6 +114,7 @@ const SinglePost = () => {
       <MovingService></MovingService>
       <MovingSectionWithOutButton></MovingSectionWithOutButton>
       <Test></Test>
+      <FeatureDoublePost></FeatureDoublePost>
       <VideoPOst></VideoPOst>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
