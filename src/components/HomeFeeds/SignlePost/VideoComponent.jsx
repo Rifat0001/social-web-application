@@ -27,7 +27,7 @@ const VideoComponent = () => {
     }, []);
 
     return (
-        <div>
+        <div className=''>
             <MediaPlayer
                 title="Sprite Fight"
                 src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"

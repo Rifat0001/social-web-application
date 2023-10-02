@@ -31,6 +31,7 @@ import MovingService from "./MovingService";
 import MovingSectionWithOutButton from "./MovingSectionWithOutButton";
 import Test from "./Test";
 import FeatureDoublePost from "./FeatureDoublePost";
+import AudioPost from "./Audio/AudioPost";
 
 const SinglePost = () => {
   return (
@@ -110,12 +111,13 @@ const SinglePost = () => {
       <CourseSell></CourseSell>
       <DpPost></DpPost>
       <EventOnlyCount></EventOnlyCount>
-
       <MovingService></MovingService>
       <MovingSectionWithOutButton></MovingSectionWithOutButton>
       <Test></Test>
       <FeatureDoublePost></FeatureDoublePost>
       <VideoPOst></VideoPOst>
+      <AudioPost></AudioPost>
+
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
 

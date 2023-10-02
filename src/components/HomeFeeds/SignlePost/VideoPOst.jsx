@@ -9,6 +9,7 @@ import ev from '../../../assets/reply/event-bg.png'
 import plus from '../../../assets/reply/plus.png'
 import cal from '../../../assets/reply/Calendar.png'
 import int from '../../../assets/reply/int.png'
+import eye from '../../../assets/eye.png'
 import {
     FaAngleDown,
     FaEllipsisH,
@@ -54,10 +55,16 @@ const VideoPOst = () => {
                     </div>
                 </div>
                 <div className="space-y-[40px]">
-                    <div className=" ms-20 event-sec">
+                    <div className="ms-20 ">
                         {/* todo add video  */}
-                        <VideoComponent></VideoComponent>
+                        <div className="event-sec pb-0 ">
+                            <VideoComponent></VideoComponent>
+                        </div>
+                        <div className="flex gap-2 absolute right-0 mt-2">
+                            <img src={eye} alt="" /> <p className="skinny">1000 k</p>
+                        </div>
                     </div>
+
                     <div className="text-end">
                         <div className="stats  shadow bg-[rgba(255,255,255,0.10)] rounded-[12px] border-y-[1px]">
                             <div className="flex items-center justify-center gap-3 px-2">

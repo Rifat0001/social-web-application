@@ -182,7 +182,7 @@ const Test = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <button className="friend-bd-border  px-5">Reply</button>
+                                        <button className="friend-bd-border px-5 bg-">Reply</button>
                                     </div>
                                 </div>
                             </div>
