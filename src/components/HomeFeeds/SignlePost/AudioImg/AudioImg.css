@@ -1,0 +1,29 @@
+.audio-img img {
+    border: 2px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+    padding: 1px;
+    height: 317px;
+    width: 606px;
+}
+
+.playBtn {
+    width: 40.375px;
+    height: 45px;
+}
+
+.audio-bg {
+    height: 60px;
+    border: 1px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 5px;
+
+
+
+}

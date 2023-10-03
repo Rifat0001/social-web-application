@@ -32,6 +32,7 @@ import MovingSectionWithOutButton from "./MovingSectionWithOutButton";
 import Test from "./Test";
 import FeatureDoublePost from "./FeatureDoublePost";
 import AudioPost from "./Audio/AudioPost";
+import AudioImg from "./AudioImg/AudioImg";
 
 const SinglePost = () => {
   return (
@@ -117,7 +118,7 @@ const SinglePost = () => {
       <FeatureDoublePost></FeatureDoublePost>
       <VideoPOst></VideoPOst>
       <AudioPost></AudioPost>
-
+      <AudioImg></AudioImg>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
 
