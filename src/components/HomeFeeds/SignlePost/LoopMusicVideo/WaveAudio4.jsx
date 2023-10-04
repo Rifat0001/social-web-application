@@ -1,13 +1,13 @@
 import mike from '../../../../assets/musicvdobtn.png'
 import { useCallback, useEffect, useRef, useState } from "react";
 import plate from '../../../../assets/vdoplate.png'
-import UseWaveSurfer from './UseWaveSurfer';
 import line from '../../../../assets/Line 6.png'
-const WaveAudio3 = (props) => {
+import UseWave from './UseWave';
+const WaveAudio4 = (props) => {
     const containerRef = useRef()
     const [isPlaying, setIsPlaying] = useState(false)
     const [currentTime, setCurrentTime] = useState(0)
-    const wavesurfer = UseWaveSurfer(containerRef, props)
+    const wavesurfer = UseWave(containerRef, props)
 
     // On play button click
     const onPlayClick = useCallback(() => {
@@ -39,8 +39,8 @@ const WaveAudio3 = (props) => {
             <div className="">
                 <div className="  ">
                     <div className="flex audio-vdo-play  items-center justify-center">
-                        <button className='' onClick={onPlayClick} style={{ marginTop: '1em' }}>
-                            {isPlaying ? <img className='w-[45]' src={mike} alt="" /> : <img className='w-[45]' src={mike} alt="" />}
+                        <button className='mb-1' onClick={onPlayClick} style={{ marginTop: '1em' }}>
+                            {isPlaying ? <img className='play-loop' src={mike} alt="" /> : <img className='play-loop' src={mike} alt="" />}
                         </button>
                         <div ref={containerRef} className='mt-2 ' style={{ minHeight: '50px', minWidth: '400px', display: 'none' }} />
                         <div className='ms-4 mt-3'>
@@ -49,12 +49,12 @@ const WaveAudio3 = (props) => {
                         </div>
                     </div>
                     <div >
-                        <img src={plate} className='plate-ad' alt="" />
+                        <img src={plate} className='plate-ad-3' alt="" />
                         <div className="platter-border">
                             <img src={line} alt="" />
                         </div>
                         <div className="platter">
-                            <p className="plate-ad-2 text-[13px]">{currentTime} sec </p>
+                            <p className="plate-ad-4 text-[13px]">{currentTime} sec </p>
                         </div>
                     </div>
 
@@ -66,4 +66,4 @@ const WaveAudio3 = (props) => {
     );
 };
 
-export default WaveAudio3;
+export default WaveAudio4;

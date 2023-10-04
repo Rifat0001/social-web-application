@@ -34,6 +34,8 @@ import FeatureDoublePost from "./FeatureDoublePost";
 import AudioPost from "./Audio/AudioPost";
 import AudioImg from "./AudioImg/AudioImg";
 import MusicVideo from "./MusicVideo/MusicVideo";
+import LoopMusicVideo from "./LoopMusicVideo/LoopMusicVideo";
+import AudioComment from "./AudioWithComment/AudioComment";
 
 const SinglePost = () => {
   return (
@@ -121,6 +123,8 @@ const SinglePost = () => {
       <AudioPost></AudioPost>
       <AudioImg></AudioImg>
       <MusicVideo></MusicVideo>
+      <LoopMusicVideo></LoopMusicVideo>
+      <AudioComment></AudioComment>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
 

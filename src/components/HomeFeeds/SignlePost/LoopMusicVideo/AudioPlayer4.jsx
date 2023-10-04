@@ -1,8 +1,9 @@
-import WaveAudio3 from './WaveAudio3';
 import { useCallback, useState } from 'react'
 import mpp from '../../../../assets/audio.mp3'
 import TimelinePlugin from 'https://unpkg.com/wavesurfer.js@7/dist/plugins/timeline.esm.js'
-const AudioPlayer3 = () => {
+import WaveAudio4 from './WaveAudio4';
+
+const AudioPlayer4 = () => {
     const urls = [mpp]
     const [audioUrl, setAudioUrl] = useState(urls[0])
 
@@ -19,10 +20,9 @@ const AudioPlayer3 = () => {
         style: {
         },
     })
-
     return (
         <>
-            <WaveAudio3
+            <WaveAudio4
                 height={40}
                 width={400}
                 waveColor={gradient}
@@ -37,4 +37,4 @@ const AudioPlayer3 = () => {
     );
 };
 
-export default AudioPlayer3;
+export default AudioPlayer4;
