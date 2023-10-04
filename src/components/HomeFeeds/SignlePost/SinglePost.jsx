@@ -33,6 +33,7 @@ import Test from "./Test";
 import FeatureDoublePost from "./FeatureDoublePost";
 import AudioPost from "./Audio/AudioPost";
 import AudioImg from "./AudioImg/AudioImg";
+import MusicVideo from "./MusicVideo/MusicVideo";
 
 const SinglePost = () => {
   return (
@@ -119,6 +120,7 @@ const SinglePost = () => {
       <VideoPOst></VideoPOst>
       <AudioPost></AudioPost>
       <AudioImg></AudioImg>
+      <MusicVideo></MusicVideo>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
 

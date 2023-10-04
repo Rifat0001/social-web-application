@@ -1,0 +1,118 @@
+.dp-img-vdo {
+    width: 77px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+    padding: 1px;
+    background-position: center;
+}
+
+.mini-dp {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.pp {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+.audio-bg-vd {
+    border: 2px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+    padding: 1px;
+    height: 317px;
+    width: 606px;
+}
+
+.audio-position {
+    position: relative;
+}
+
+.underVideoTop-1 {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.underVideoTop-2 {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin-top: 15px;
+}
+
+.audio-part-2 {
+    position: absolute;
+    bottom: 0;
+    width: 586px;
+    height: 67px;
+    border-radius: 27px;
+    border: 1px solid #7C62E2;
+    background: linear-gradient(178deg, rgba(63, 63, 63, 0.45) -6.19%, rgba(9, 8, 8, 0.08) 98.55%);
+    box-shadow: 5px 4px 4px 3px rgba(0, 0, 0, 0.36);
+}
+
+.player-t {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.player-d {
+    color: #FAFAFA;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.audio-vdo-play {
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    bottom: 10px;
+}
+
+.plate-ad {
+    position: absolute;
+    right: 0;
+    margin-top: 22px;
+    margin-right: 20px;
+
+}
+
+.plate-ad-2 {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+
+}
+
+.platter-border img {
+    position: absolute;
+    right: 120px;
+    margin-top: 10px;
+}
