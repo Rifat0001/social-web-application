@@ -74,6 +74,51 @@
 
 }
 
+.couple3:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 223px;
+    background: #00E7FC;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+
+}
+
+.message-link-container {
+    /* border-radius: 12px 12px 0px 0px;
+    border: 1px solid var(--f, #00E7FC);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    border: 2px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+    width: 609px;
+    height: 115px;
+}
+
+.message-text h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+.message-box {
+    width: 77px;
+    height: 89px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #0A123E;
+}
+
 .second-comment:before {
     content: "";
     display: block;
@@ -83,6 +128,18 @@
     margin: 0 auto;
     position: absolute;
     top: 67px;
+    left: 87px;
+}
+
+.second-comment-msg:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 213px;
+    background: #00E7FC;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
     left: 87px;
 }
 

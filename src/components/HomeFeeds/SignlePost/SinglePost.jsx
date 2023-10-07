@@ -36,6 +36,8 @@ import AudioImg from "./AudioImg/AudioImg";
 import MusicVideo from "./MusicVideo/MusicVideo";
 import LoopMusicVideo from "./LoopMusicVideo/LoopMusicVideo";
 import AudioComment from "./AudioWithComment/AudioComment";
+import AddNewFile from "./AddNewFile";
+import AddFileWithReply from "./AddFileWithReply";
 
 const SinglePost = () => {
   return (
@@ -125,6 +127,8 @@ const SinglePost = () => {
       <MusicVideo></MusicVideo>
       <LoopMusicVideo></LoopMusicVideo>
       <AudioComment></AudioComment>
+      <AddNewFile></AddNewFile>
+      <AddFileWithReply></AddFileWithReply>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
 

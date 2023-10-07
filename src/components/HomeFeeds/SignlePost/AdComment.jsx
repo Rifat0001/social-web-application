@@ -1,5 +1,4 @@
 import Img from "../../../assets/CreatePost/bd-person.png";
-import image5 from "../../../assets/CreatePost/bd-person.png";
 import gif from '../../../assets/reply/Vector.png'
 import img from '../../../assets/reply/Combined-Shape.png'
 import emoji from '../../../assets/reply/Vector (2).png'

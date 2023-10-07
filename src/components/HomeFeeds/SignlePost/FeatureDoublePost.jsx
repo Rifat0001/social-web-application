@@ -2,7 +2,6 @@ import dp2 from "../../../assets/dp5.png";
 import image1 from '../../../assets/dp22.png'
 import image2 from '../../../assets/dp23.png'
 import image3 from "../../../assets/CreatePost/person-2.png";
-import image4 from "../../../assets/CreatePost/person-3.png";
 import fire from "../../../assets/CreatePost/fire.png";
 import image5 from "../../../assets/CreatePost/bd-person.png";
 import feature from '../../../assets/fooll.png'
