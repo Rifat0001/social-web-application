@@ -38,6 +38,7 @@ import LoopMusicVideo from "./LoopMusicVideo/LoopMusicVideo";
 import AudioComment from "./AudioWithComment/AudioComment";
 import AddNewFile from "./AddNewFile";
 import AddFileWithReply from "./AddFileWithReply";
+import MultiLayout from "./MultiLayout";
 
 const SinglePost = () => {
   return (
@@ -129,6 +130,7 @@ const SinglePost = () => {
       <AudioComment></AudioComment>
       <AddNewFile></AddNewFile>
       <AddFileWithReply></AddFileWithReply>
+      <MultiLayout></MultiLayout>
       {/* from here post will end and show load more post  */}
       <LoadMorePost></LoadMorePost>
 

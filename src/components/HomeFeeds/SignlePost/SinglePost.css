@@ -613,3 +613,40 @@ input[type="radio"]:checked+span:before {
         linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
     border-radius: 12px;
 }
+
+/* gallery layout start  */
+.g1 {
+    width: 287px;
+    height: 238px;
+    border: 2px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+}
+
+.g1 img {
+    width: 287px;
+    height: 235px;
+    padding: 1px;
+    border-radius: 12px;
+}
+
+.g2 {
+    width: 287px;
+    height: 154px;
+    border: 2px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+}
+
+.g2 img {
+    width: 287px;
+    height: 151px;
+    padding: 1px;
+    border-radius: 12px;
+}
