@@ -33,6 +33,7 @@ import like from "../../assets/likess.png";
 import Users from "../../assets/CreatePost/users.png";
 import "./Profile.css";
 import { FaAngleUp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
@@ -63,7 +64,7 @@ const Profile = () => {
         {/* profile name  */}
         <div className="profile-info">
           <h1 className="text-white text-center font-bold text-xl">
-            Oblivion Isme
+            <Link to='/profile'> Oblivion Isme</Link>
           </h1>
           <p className="text-xs profile-user text-center mt-2">@oblivion123</p>
         </div>

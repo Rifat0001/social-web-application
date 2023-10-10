@@ -8,7 +8,7 @@ import './Messages.css'
 
 const Messages = () => {
     return (
-        <div>
+        <div className='bg-[#0A123E]'>
             <div className='flex items-center justify-between my-5 mx-5 message-bt py-2 px-5'>
                 <h2 className="font-bold text-white ">
                     Messages
@@ -173,7 +173,7 @@ const Messages = () => {
 
             </div>
             <div>
-                <input type="text" name="" placeholder='Search for users' className='srcf py-2 px-3 text-xs rounded-full mx-5 border-2 border-[#EC46E5]' id="" />
+                <input type="text" name="" placeholder='Search for users' className='srcf py-2 px-3 text-xs rounded-full mx-5 border-2 ' id="" />
             </div>
         </div>
     );

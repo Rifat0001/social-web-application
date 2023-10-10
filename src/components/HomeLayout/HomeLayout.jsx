@@ -7,7 +7,7 @@ import Messages from '../Messages/Messages';
 import HomeFeeds from '../HomeFeeds/HomeFeeds';
 const HomeLayout = () => {
     return (
-        <div className='home-layout'>
+        <div className='home-layout bg-[#0A123E]'>
             <SideIcons></SideIcons>
             <Profile></Profile>
             <HomeFeeds></HomeFeeds>

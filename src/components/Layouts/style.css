@@ -1,0 +1,5 @@
+.profile-col-layout {
+    display: grid;
+    grid-template-columns: 1210px 270px;
+    gap: 10px;
+}

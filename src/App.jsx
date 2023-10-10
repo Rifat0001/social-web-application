@@ -4,10 +4,9 @@ import HomeLayout from "./components/HomeLayout/HomeLayout"
 
 function App() {
   return (
-    <div className="bg-[#0A123E]">
+    <div >
       <Header></Header>
       <HomeLayout></HomeLayout>
-   
     </div>
   )
 }

@@ -466,7 +466,7 @@ input[type="radio"]:checked+span:before {
 }
 
 .divider {
-    width: 540px;
+    width: 660px;
     border: 1px solid;
     color: #EC46E5;
 

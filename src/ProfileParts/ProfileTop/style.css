@@ -1,0 +1,129 @@
+.profile-bg {
+    width: 1180px;
+    height: 231px;
+    background: url('../../assets/Profile-section/26cb541bc9c21f98652444edef1fe5a9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+}
+
+.name {
+    width: 124px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    border-radius: 33px;
+    background: var(--mm, linear-gradient(90deg, #DD4BEC 0%, #5A7CF7 100%));
+    box-shadow: 2px 4px 21px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin: 1px;
+}
+
+.top-border {
+    border-radius: 33px;
+    box-shadow: 2px 4px 21px 7px rgba(0, 0, 0, 0.25);
+    width: 127px;
+    height: 32px;
+    flex-shrink: 0;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+
+}
+
+.top-badge {
+
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    background-color: #F8F8F8;
+    color: #00072D;
+    border-radius: 50%;
+}
+
+.badge-border {
+    border-radius: 50%;
+    box-shadow: 2px 4px 21px 7px rgba(0, 0, 0, 0.25);
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+    position: absolute;
+    top: 239px;
+    left: 200px;
+}
+
+.photo-top {
+    position: relative;
+}
+
+.top-badge p {
+    font-size: 9px;
+}
+
+.inner-profile img {
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+}
+
+.inner-profile {
+    width: 202px;
+    height: 202px;
+    flex-shrink: 0;
+    border-radius: 202px;
+    border: 2px solid;
+    border-image: linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(180deg, #08E2FB 0%, #0A123E 51.04%, #EC46E5 100%)border-box;
+
+}
+
+
+.outer-profile {
+    width: 215.506px;
+    height: 214px;
+    background-color: #00072D;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+}
+
+.edit-button-outer {
+    width: 146px;
+    height: 45px;
+    flex-shrink: 0;
+    border: 1px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
+    color: white;
+    font: 12px;
+}
+
+.feature-outer img {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 270px;
+    left: 520px;
+}
+
+.verify-outer img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 270px;
+    left: 685px;
+}
