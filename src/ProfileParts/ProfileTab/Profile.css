@@ -7,12 +7,18 @@
 }
 
 .tab-link:hover {
-    /* background: -webkit-linear-gradient(70deg, #00E7FC 2.07%, #EC46E5 98.58%);
-    -webkit-background-clip: text;
-    color: -webkit-linear-gradient(70deg, #00E7FC 2.07%, #EC46E5 98.58%);
-    -webkit-text-fill-color: transparent; */
-    background: linear-gradient(45deg, #FFD700, #FFA500);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    color: #00E7FC;
+}
+
+.cat-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1047px;
+    height: 78px;
+    border: 1px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    border-radius: 12px;
 }
