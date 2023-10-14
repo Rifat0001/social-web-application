@@ -1,0 +1,37 @@
+.post-outer {
+    border-radius: 99px;
+    background: #0A123E;
+    height: 60px;
+}
+
+.post-right {
+    width: 76px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 0px 99px 99px 0px;
+    background: linear-gradient(160deg, #EC46E5 3.16%, #00E7FC 44.6%, #9352EE 86.92%);
+}
+
+/* for create post  */
+
+.give-post-profile {
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.write-post-profile {
+    width: 600px;
+    background-color: #00072D;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.m-b {
+    background: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%);
+}
+
+.all-post {
+    border-radius: 12px;
+    height: auto;
+}

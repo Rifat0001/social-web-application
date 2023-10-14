@@ -1,27 +1,31 @@
 import './Profile.css'
 import { BeakerIcon } from '@heroicons/react/24/solid'
 import test from '../../assets/Profile-section/tabCat.svg'
+import { Link } from 'react-router-dom';
 const ProfileTab = () => {
     return (
         <div className='flex justify-center items-center cat-container mt-8 gap-20'>
-            <div className="tab-link flex flex-col justify-center items-center ">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
-                </svg>
-                <p className='mt-2'>Time Line</p>
-            </div>
-            <div className="tab-link flex flex-col justify-center items-center ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
-                    <path d="M14.6341 1.6C15.7073 1.6 16.5854 2.32 16.5854 3.2V12.8C16.5854 13.68 15.7073 14.4 14.6341 14.4V1.6ZM0 14.4C0 15.28 0.878049 16 1.95122 16H10.7317C11.8049 16 12.6829 15.28 12.6829 14.4V1.6C12.6829 0.72 11.8049 0 10.7317 0H1.95122C0.878049 0 0 0.72 0 1.6V14.4ZM18.5366 12.8C19.3463 12.8 20 12.264 20 11.6V4.4C20 3.736 19.3463 3.2 18.5366 3.2V12.8Z" fill="url(#paint0_linear_5_42660)" />
-                    <defs>
-                        <linearGradient id="paint0_linear_5_42660" x1="0.901938" y1="4.6192e-07" x2="14.1622" y2="19.5406" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00E7FC" />
-                            <stop offset="1" stop-color="#EC46E5" />
-                        </linearGradient>
-                    </defs>
-                </svg>
-                <p className='mt-2'>Category</p>
-            </div>
+            <Link to='/profile/timeline' >
+                <div className="tab-link flex flex-col justify-center items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                    </svg>
+                    <p className='mt-2'>Time Line</p>
+                </div>
+            </Link>
+            <Link to='/profile/categories' >
+                <div className="tab-link flex flex-col justify-center items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                        <path d="M14.6341 1.6C15.7073 1.6 16.5854 2.32 16.5854 3.2V12.8C16.5854 13.68 15.7073 14.4 14.6341 14.4V1.6ZM0 14.4C0 15.28 0.878049 16 1.95122 16H10.7317C11.8049 16 12.6829 15.28 12.6829 14.4V1.6C12.6829 0.72 11.8049 0 10.7317 0H1.95122C0.878049 0 0 0.72 0 1.6V14.4ZM18.5366 12.8C19.3463 12.8 20 12.264 20 11.6V4.4C20 3.736 19.3463 3.2 18.5366 3.2V12.8Z" fill="url(#paint0_linear_5_42660)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_5_42660" x1="0.901938" y1="4.6192e-07" x2="14.1622" y2="19.5406" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00E7FC" />
+                                <stop offset="1" stop-color="#EC46E5" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <p className='mt-2'>Category</p>
+                </div>  </Link>
             <div className="tab-link flex flex-col justify-center items-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M6.85714 6C6.85714 6.47086 6.47086 6.85714 6 6.85714H4.28571C4.05857 6.85654 3.8409 6.76604 3.68029 6.60543C3.51967 6.44481 3.42917 6.22714 3.42857 6V4.28571C3.42857 3.81486 3.81371 3.42857 4.28571 3.42857H6C6.47086 3.42857 6.85714 3.81486 6.85714 4.28571V6ZM12.5714 6C12.5714 6.47086 12.1851 6.85714 11.7143 6.85714H10C9.77295 6.85624 9.55546 6.76564 9.39491 6.60509C9.23436 6.44454 9.14376 6.22705 9.14286 6V4.28571C9.14286 3.81486 9.52914 3.42857 10 3.42857H11.7143C12.1851 3.42857 12.5714 3.81486 12.5714 4.28571V6ZM6.85714 11.7143C6.85714 12.1851 6.47086 12.5714 6 12.5714H4.28571C4.05857 12.5708 3.8409 12.4803 3.68029 12.3197C3.51967 12.1591 3.42917 11.9414 3.42857 11.7143V10C3.42857 9.52914 3.81371 9.14286 4.28571 9.14286H6C6.47086 9.14286 6.85714 9.52914 6.85714 10V11.7143ZM12.5714 11.7143C12.5714 12.1851 12.1851 12.5714 11.7143 12.5714H10C9.77295 12.5705 9.55546 12.4799 9.39491 12.3194C9.23436 12.1588 9.14376 11.9413 9.14286 11.7143V10C9.14286 9.52914 9.52914 9.14286 10 9.14286H11.7143C12.1851 9.14286 12.5714 9.52914 12.5714 10V11.7143ZM0 11.4286H1.14286V13.7143H0V11.4286ZM0 8H1.14286V10.2857H0V8ZM14.8571 5.71429H16V8H14.8571V5.71429ZM14.8571 12.5714H16V14.8571H14.8571V12.5714ZM14.8571 9.14286H16V11.4286H14.8571V9.14286ZM0 4.57143H1.14286V6.85714H0V4.57143ZM0 1.14286H1.14286V3.42857H0V1.14286ZM9.14286 0H11.4286V1.14286H9.14286V0ZM5.71429 0H8V1.14286H5.71429V0ZM2.28571 0H4.57143V1.14286H2.28571V0ZM8 14.8571H10.2857V16H8V14.8571ZM11.4286 14.8571H13.7143V16H11.4286V14.8571ZM4.57143 14.8571H6.85714V16H4.57143V14.8571ZM1.14286 14.8571H3.42857V16H1.14286V14.8571Z" fill="#F8F8F8" />
