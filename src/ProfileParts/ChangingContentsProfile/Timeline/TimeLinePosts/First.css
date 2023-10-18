@@ -29,3 +29,16 @@
     top: 62px;
     left: 87px;
 }
+
+.donat:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 490px;
+    background: #00E7FC;
+    margin: 0 auto;
+    position: absolute;
+    top: 95px;
+    left: 55px;
+
+}

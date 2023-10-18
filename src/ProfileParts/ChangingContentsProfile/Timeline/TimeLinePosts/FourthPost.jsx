@@ -1,12 +1,13 @@
-import image3 from "../../../assets/CreatePost/person-2.png";
-import fire from "../../../assets/CreatePost/fire.png";
-import img from "../../../assets/CreatePost/bd-person.png";
-import rage from '../../../assets/reply/rage.png'
-import info from '../../../assets/reply/inf.png'
-import contact from '../../../assets/reply/contact.png'
-import pro1 from "../../../assets/reply/product1.png";
-import pro2 from "../../../assets/reply/product2.png";
-// import rec from '../../../assets/reply/rec.png'
+import image3 from "../../../../assets/CreatePost/person-2.png";
+import fire from "../../../../assets/CreatePost/fire.png";
+import img from "../../../../assets/CreatePost/bd-person.png";
+import rage from '../../../../assets/reply/rage.png'
+import info from '../../../../assets/reply/inf.png'
+import contact from '../../../../assets/reply/contact.png'
+import pro1 from "../../../../assets/reply/product1.png";
+import './Fourth.css'
+import pro2 from "../../../../assets/reply/product2.png";
+// import rec from '../../../../assets/reply/rec.png'
 import {
     FaAngleDown,
     FaEllipsisH,
@@ -19,14 +20,12 @@ import {
     FaTrashAlt,
 } from "react-icons/fa";
 import { HiOutlineBookmarkAlt } from "react-icons/hi";
-import Sicon from "../../../assets/CreatePost/Sicon.png";
-import "./SinglePost.css";
-import "./SinglePost.css";
-import CommentSection from "./CommentSection";
-const ProductSell = () => {
+import Sicon from "../../../../assets/CreatePost/Sicon.png";
+import CommentSection from "../../../../components/HomeFeeds/SignlePost/CommentSection";
+const FourthPost = () => {
     return (
-        <div className=" mx-auto relative pt-20">
-            <div className="pb-5 prodo ">
+        <div className=" relative px-3 py-5 text-white mx-6">
+            <div className="pb-5 prodo-timeline ">
                 <div className="flex items-start justify-between">
                     <div className="flex items-center justify-start gap-5">
                         <img src={img} alt="" />
@@ -62,7 +61,7 @@ const ProductSell = () => {
                             <img className="w-full" src={pro2} alt="" />
                         </div>
                         {/* product description  */}
-                        <div className="product-description z-0 border">
+                        <div className="product-description-timeline z-0 border">
                             {/* rating part  */}
                             <div className="bg-[#00072D]  h-[70px] w-full  px-5 pt-2 ">
                                 <div className="flex justify-between items-center ">
@@ -189,7 +188,7 @@ const ProductSell = () => {
                 </div>
 
                 <div className=" flex justify-end">
-                    <div className="divider  bg-[#00E7FC] w-[100%] h-[1px]"></div>
+                    <div className="  my-3 bg-[#00E7FC] w-[100%] h-[1px]"></div>
                 </div>
                 <CommentSection></CommentSection>
             </div>
@@ -197,4 +196,4 @@ const ProductSell = () => {
     );
 };
 
-export default ProductSell;
+export default FourthPost;

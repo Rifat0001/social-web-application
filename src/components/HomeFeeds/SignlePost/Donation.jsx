@@ -65,7 +65,7 @@ const Donation = () => {
                                     <button className="donate-btn">Donate</button>
                                 </div>
                             </div>
-                            <div className="divider h-2 rounded-xl"></div>
+                            <div className="dividerx h-2 rounded-xl"></div>
                         </div>
                     </div>
                     <div className="text-end">

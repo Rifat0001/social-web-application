@@ -1,32 +1,27 @@
-import image3 from "../../../assets/CreatePost/person-2.png";
-import fire from "../../../assets/CreatePost/fire.png";
-import img from "../../../assets/CreatePost/bd-person.png";
-import rage from '../../../assets/reply/rage.png'
-import info from '../../../assets/reply/inf.png'
-import contact from '../../../assets/reply/contact.png'
-import pro1 from "../../../assets/reply/product1.png";
-import pro2 from "../../../assets/reply/product2.png";
+import image3 from "../../../../assets/CreatePost/person-2.png";
+import fire from "../../../../assets/CreatePost/fire.png";
+import img from "../../../../assets/CreatePost/bd-person.png";
+import donation from '../../../../assets/reply/donate.png'
+import raise from '../../../../assets/reply/raise.png'
+import Sicon from "../../../../assets/CreatePost/Sicon.png";
 // import rec from '../../../assets/reply/rec.png'
 import {
     FaAngleDown,
     FaEllipsisH,
     FaExclamationCircle,
     FaGlobe,
-    FaStar,
-    FaStarHalfAlt,
     FaHeart,
     FaRegComments,
     FaTrashAlt,
 } from "react-icons/fa";
 import { HiOutlineBookmarkAlt } from "react-icons/hi";
-import Sicon from "../../../assets/CreatePost/Sicon.png";
-import "./SinglePost.css";
-import "./SinglePost.css";
-import CommentSection from "./CommentSection";
-const ProductSell = () => {
+import Reply from "../../../../components/HomeFeeds/SignlePost/Reply";
+import CommentSection from "../../../../components/HomeFeeds/SignlePost/CommentSection";
+import TimeLineComment from "./TimeLineComment";
+const ThirdPost = () => {
     return (
-        <div className=" mx-auto relative pt-20">
-            <div className="pb-5 prodo ">
+        <div className="  text-white py-5 px-3 mx-6 relative">
+            <div className="pb-5 donat ">
                 <div className="flex items-start justify-between">
                     <div className="flex items-center justify-start gap-5">
                         <img src={img} alt="" />
@@ -35,7 +30,7 @@ const ProductSell = () => {
                             <p className="flex items-center justify-start gap-2">
                                 <span>Oblivion Isme</span>
 
-                                <span className="text-[10px] flex items-center">Added a new product for sell</span>
+                                <span className="text-[10px] flex items-center">Created a donation request</span>
                             </p>
                             <p className="flex items-center gap-3">
                                 <span className="text-[16px] profile-user">@Oblivion1122</span>
@@ -54,58 +49,22 @@ const ProductSell = () => {
                 </div>
                 {/* poll start from here  */}
                 <div className=" space-y-[40px] ms-24">
-                    {/* product sell section  */}
-                    <div>
-                        {/* image section  */}
-                        <div className="flex w-full z-10 relative bottom-[-5px]">
-                            <img className="w-full" src={pro1} alt="" />
-                            <img className="w-full" src={pro2} alt="" />
-                        </div>
-                        {/* product description  */}
-                        <div className="product-description z-0 border">
-                            {/* rating part  */}
-                            <div className="bg-[#00072D]  h-[70px] w-full  px-5 pt-2 ">
-                                <div className="flex justify-between items-center ">
-                                    <div >
-                                        <h3 className="text-[14px] mt-2 ">Nike brand new boot for every man</h3>
-                                        <div className="flex items-center">
-                                            <p className="text-[13px]">Las Vegas . <span className="text-[#FFE600]">unavailable</span> . Used</p>
-                                            <div className="flex ms-4 items-center">
-                                                <img src={rage} alt="" />  <p className="text-[14px] ms-1 text-[#05FF00]">66.99 (USD)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="mt-[-10px] text-[8px] rate  flex items-center gap-1">
-                                        <p className="ms-1">(1.9k) Reviews</p>
-                                        <FaStar className="text-[#FFE600]"></FaStar>
-                                        <FaStar className="text-[#FFE600]"></FaStar>
-                                        <FaStar className="text-[#FFE600]"></FaStar>
-                                        <FaStar className="text-[#FFE600]"></FaStar>
-                                        <FaStarHalfAlt className="text-[#FFE600]"></FaStarHalfAlt>
-                                        <p>4.5</p>
+                    {/* donation part started  */}
+                    <div className="relative">
+                        <img className="w-full" src={donation} alt="" />
+                        <div className="donate-bg absolute bottom-0 h-[102px] w-full  px-5 pt-2 ">
+                            <div className="flex justify-between items-center ">
+                                <div >
+                                    <h3 className="text-[24px] font-semibold ">So Inverse</h3>
+                                    <div className="flex items-center">
+                                        <img src={raise} alt="" className="me-1" /> 0 raised of <img src={raise} className="mx-1" alt="" /> 20000
                                     </div>
                                 </div>
-                            </div>
-                            {/* more info  */}
-                            <div className="mx-5 my-2">
-                                <h2 className="text-[19px] font-medium">Shoes</h2>
-                                <div className="mt-4 flex items-center justify-between me-12">
-                                    <button className="conti ps-5 flex w-[154px] h-[34px] gap-2 items-center">
-                                        <img src={contact} alt="" />
-                                        <p className="text-[14px] font-medium">Contact seller</p>
-                                    </button>
-                                    <p className="text-[14px] font-light ">currently unavailable</p>
-                                    <button className="conti ps-7 flex w-[154px] h-[34px] gap-2 items-center">
-                                        <img src={info} alt="" />
-                                        <p className="text-[14px] font-medium">More info</p>
-                                    </button>
+                                <div className="mt-4">
+                                    <button className="donate-btn">Donate</button>
                                 </div>
                             </div>
-                            {/* product footer  */}
-                            <div className="flex mx-5 gap-2 mt-4 items-center">
-                                <img src={info} alt="" />
-                                <p className="text-[14px]">It is a fine and very expensive shoe but plan on giving it away</p>
-                            </div>
+                            <div className="dividerx h-2 rounded-xl"></div>
                         </div>
                     </div>
                     <div className="text-end">
@@ -187,14 +146,17 @@ const ProductSell = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className=" flex justify-end">
-                    <div className="divider  bg-[#00E7FC] w-[100%] h-[1px]"></div>
+                <Reply></Reply>
+                <div className="">
+                    <div className="">
+                        <div className="  my-3 bg-[#00E7FC] w-[100%] h-[1px]"></div>
+                    </div>
+                    <TimeLineComment></TimeLineComment>
                 </div>
-                <CommentSection></CommentSection>
+
             </div>
         </div >
     );
 };
 
-export default ProductSell;
+export default ThirdPost;
