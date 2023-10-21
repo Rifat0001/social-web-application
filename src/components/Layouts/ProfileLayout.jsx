@@ -12,7 +12,7 @@ const ProfileLayout = () => {
                     <ProfileTop className=''></ProfileTop>
                     <div className="profile-bottom-1">
                         <ProfileLeft></ProfileLeft>
-                        <div className="changing">
+                        <div className="changing ">
                             <Outlet></Outlet>
                         </div>
                     </div>

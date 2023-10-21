@@ -1,8 +1,11 @@
+import AllCategoryPost from "./AllCategoryPost";
+import Trip from "./Trip";
 
 const Categories = () => {
     return (
         <div>
-            <h1 className="text-4xl">Categories</h1>
+            <Trip></Trip>
+            <AllCategoryPost></AllCategoryPost>
         </div>
     );
 };

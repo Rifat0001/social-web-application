@@ -1,0 +1,95 @@
+.all-post-category {
+    width: 798px;
+    margin: 0 auto;
+    background-color: #0A123E;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+
+
+
+.girls {
+    width: 570px;
+    height: 574px;
+    border: 1px solid;
+    border-radius: 0px 0px 12px 12px;
+
+}
+
+.image-box-outer {
+    border: 1px solid;
+    border-radius: 0px 0px 12px 12px;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+}
+
+
+
+.top-outer-box {
+    width: 533px;
+    height: 50px;
+    border-radius: 17px 17px 0px 0px;
+    border: 1px solid;
+    border-image: linear-gradient(96.57deg, #EC46E5 6.66%, #00E7FC 49.35%, #B82BEA 93.85%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(96.57deg, #EC46E5 6.66%, #00E7FC 49.35%, #B82BEA 93.85%)border-box;
+}
+
+.reactions-outer {
+    width: 55px;
+    height: 187px;
+    border-radius: 34px;
+    border: 1px solid var(--q, #08E2FB);
+    background: rgba(0, 7, 45, 0.42);
+    backdrop-filter: blur(2px);
+
+}
+
+.react-count {
+    color: #EBEBEB;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 94.118% */
+}
+
+.second-comment-category::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 319px;
+    background: #00E7FC;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
+    left: 87px;
+}
+
+.second-post-comment::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 219px;
+    background: #00E7FC;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
+    left: 87px;
+}
+
+.load-outer {
+    width: 230px;
+    height: 42px;
+    border-radius: 22px;
+    margin: auto;
+    border: 1px solid;
+    border-image: linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%) 1;
+    background:
+        linear-gradient(#00072D, #00072D)padding-box,
+        linear-gradient(129.29deg, #00E7FC 9.14%, #EC46E5 111.83%)border-box;
+}

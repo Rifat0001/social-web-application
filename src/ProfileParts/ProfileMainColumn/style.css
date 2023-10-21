@@ -1,0 +1,7 @@
+.profile-middle-layout {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 350px 781px;
+    gap: 20px;
+}

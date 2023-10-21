@@ -1,3 +1,4 @@
+import LoadMorePosts from '../Categories/CategoryPosts/LoadMorePosts';
 import FifthPost from './TimeLinePosts/FifthPost';
 import FirstPost from './TimeLinePosts/FirstPost';
 import FourthPost from './TimeLinePosts/FourthPost';
@@ -12,6 +13,9 @@ const AllTimeLinePosts = () => {
             <ThirdPost></ThirdPost>
             <FourthPost></FourthPost>
             <FifthPost></FifthPost>
+            <div className="py-12">
+                <LoadMorePosts></LoadMorePosts>
+            </div>
         </div>
     );
 };

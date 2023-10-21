@@ -15,7 +15,7 @@ import {
   FaTrashAlt,
 } from "react-icons/fa";
 import { HiOutlineBookmarkAlt } from "react-icons/hi";
-import "./SinglePost.css";
+
 import Sicon from "../../../assets/CreatePost/Sicon.png";
 import "./SinglePost.css";
 const PostComment = () => {

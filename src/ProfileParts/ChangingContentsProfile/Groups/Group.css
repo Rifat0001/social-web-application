@@ -1,0 +1,17 @@
+.group-outer {
+    border-radius: 12px;
+    border: 1px solid;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+    width: 220px;
+    height: 255px;
+}
+
+.group-outlet {
+    background-color: #0A123E;
+    width: 799px;
+    border-radius: 12px;
+    height: 3000px;
+}
