@@ -8,6 +8,8 @@ import Timeline from "./ProfileParts/ChangingContentsProfile/Timeline/Timeline";
 import Categories from "./ProfileParts/ChangingContentsProfile/Categories/Categories";
 import Groups from "./ProfileParts/ChangingContentsProfile/Groups/Groups";
 import Likes from "./ProfileParts/ChangingContentsProfile/Likes/Likes";
+import Following from "./ProfileParts/ChangingContentsProfile/Following/Following";
+import Followers from "./ProfileParts/ChangingContentsProfile/Following/Followers";
 
 export const router = createBrowserRouter([
     {
@@ -40,6 +42,14 @@ export const router = createBrowserRouter([
                 path: 'likes',
                 element: <Likes></Likes>
             },
+            {
+                path: 'following',
+                element: <Following></Following>
+            },
+            {
+                path: 'followers',
+                element: <Followers></Followers>
+            }
 
         ]
     }
