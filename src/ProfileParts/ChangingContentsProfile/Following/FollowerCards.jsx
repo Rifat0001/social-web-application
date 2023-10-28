@@ -4,7 +4,7 @@ const FollowerCards = () => {
     return (
         <div className="follow-container-card items-center ps-6 flex gap-4">
             <div className="follow-img">
-                <img src={follower} alt="" />
+                <img src={follower} className='bg-center' alt="" />
             </div>
             <div className="next-part flex flex-col gap-1">
                 <p className='text-white'>Mosiur Rahman</p>

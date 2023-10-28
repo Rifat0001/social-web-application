@@ -10,6 +10,8 @@ import Groups from "./ProfileParts/ChangingContentsProfile/Groups/Groups";
 import Likes from "./ProfileParts/ChangingContentsProfile/Likes/Likes";
 import Following from "./ProfileParts/ChangingContentsProfile/Following/Following";
 import Followers from "./ProfileParts/ChangingContentsProfile/Following/Followers";
+import Photos from "./ProfileParts/ChangingContentsProfile/PhotosSection/Photos";
+import Videos from "./ProfileParts/ChangingContentsProfile/Videos/Videos";
 
 export const router = createBrowserRouter([
     {
@@ -49,7 +51,15 @@ export const router = createBrowserRouter([
             {
                 path: 'followers',
                 element: <Followers></Followers>
-            }
+            },
+            {
+                path: 'photos',
+                element: <Photos></Photos>
+            },
+            {
+                path: 'videos',
+                element: <Videos></Videos>
+            },
 
         ]
     }

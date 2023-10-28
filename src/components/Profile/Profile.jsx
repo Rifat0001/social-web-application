@@ -64,7 +64,7 @@ const Profile = () => {
         {/* profile name  */}
         <div className="profile-info">
           <h1 className="text-white text-center font-bold text-xl">
-            <Link to='/profile'> Oblivion Isme</Link>
+            <Link to='/profile/timeline'> Oblivion Isme</Link>
           </h1>
           <p className="text-xs profile-user text-center mt-2">@oblivion123</p>
         </div>

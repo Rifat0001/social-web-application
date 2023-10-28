@@ -1,0 +1,20 @@
+.photo-container {
+    border-radius: 12px;
+    background: #0A123E;
+    box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.25);
+    width: 799px;
+    height: auto;
+}
+
+.photo-outer img {
+    width: 248px;
+    height: 248px;
+    flex-shrink: 0;
+    border-radius: 19.443px;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #FFE000 0.02%, #FF4800 100.01%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(180deg, #FFE000 0.02%, #FF4800 100.01%)border-box;
+    padding: 1px;
+}
