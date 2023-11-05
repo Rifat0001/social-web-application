@@ -1,19 +1,19 @@
 import { Outlet } from "react-router-dom";
-import ProfileLeft from "../../ProfileParts/ProfileLeft/ProfileLeft";
-import ProfileTop from "../../ProfileParts/ProfileTop/ProfileTop";
-import Messages from "../Messages/Messages";
-import './style.css'
 import Header from "../Header/Header";
-const ProfileLayout = () => {
+import Messages from "../Messages/Messages";
+import OthersProfileTop from "../../OthersProfilePats/OthersProfileTop";
+import OthersLefts from "../../OthersProfilePats/OthersLefts";
+
+const OtherProfileLayout = () => {
     return (
         <section>
             <Header></Header>
             <div className="profile-col-layout bg-[#00072D]">
 
                 <div className="profile-top-2">
-                    <ProfileTop className=''></ProfileTop>
+                    <OthersProfileTop></OthersProfileTop>
                     <div className="profile-bottom-1">
-                        <ProfileLeft></ProfileLeft>
+                        <OthersLefts></OthersLefts>
                         <div className="changing ">
                             <Outlet></Outlet>
                         </div>
@@ -25,4 +25,4 @@ const ProfileLayout = () => {
     );
 };
 
-export default ProfileLayout;
+export default OtherProfileLayout;

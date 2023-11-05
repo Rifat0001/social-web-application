@@ -13,6 +13,7 @@ import {
 } from "@heroicons/react/24/solid";
 import "./Header.css";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [notificationData, setNotificationData] = useState([])
   useEffect(() => {
@@ -27,8 +28,8 @@ const Header = () => {
   return (
     <div className="navbar navborder bg-[#00072D] py-4 px-4">
       <div className="flex-1">
-        <img src={logo} alt="" />
-        <img src={text} className="mx-4" alt="" />
+        <Link to='/' > <img src={logo} alt="" /></Link>
+        <Link to='/' >  <img src={text} className="mx-4" alt="" /></Link>
         <button className="f-b">
           <div className="flex justify-center">
             <img className="w-1/4" src={plus} alt="" />

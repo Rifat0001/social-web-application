@@ -12,6 +12,10 @@ import Following from "./ProfileParts/ChangingContentsProfile/Following/Followin
 import Followers from "./ProfileParts/ChangingContentsProfile/Following/Followers";
 import Photos from "./ProfileParts/ChangingContentsProfile/PhotosSection/Photos";
 import Videos from "./ProfileParts/ChangingContentsProfile/Videos/Videos";
+import OtherProfileLayout from "./components/Layouts/OtherProfileLayout";
+import TimelineOthers from "./OthersProfilePats/OtherChangingPosts/TimelinePostsOthers/TimelineOthers";
+import AllTimeLinePosts from "./ProfileParts/ChangingContentsProfile/Timeline/AllTimeLinePosts";
+import CreatePost from "./components/HomeFeeds/CreatePost/CreatePost";
 
 export const router = createBrowserRouter([
     {
@@ -61,6 +65,26 @@ export const router = createBrowserRouter([
                 element: <Videos></Videos>
             },
 
+        ]
+    },
+    {
+        path: 'othersProfile',
+        element: <OtherProfileLayout></OtherProfileLayout>,
+        children: [
+            {
+                path: 'timeline',
+                element: <TimelineOthers></TimelineOthers>,
+                children: [
+                    {
+                        path: 'feeds',
+                        element: <AllTimeLinePosts></AllTimeLinePosts>
+                    },
+                    {
+                        path: 'photos',
+                        element: <CreatePost></CreatePost>
+                    }
+                ]
+            },
         ]
     }
 ]);

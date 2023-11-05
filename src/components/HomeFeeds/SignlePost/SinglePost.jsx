@@ -39,6 +39,7 @@ import AudioComment from "./AudioWithComment/AudioComment";
 import AddNewFile from "./AddNewFile";
 import AddFileWithReply from "./AddFileWithReply";
 import MultiLayout from "./MultiLayout";
+import { Link } from "react-router-dom";
 
 const SinglePost = () => {
   return (
@@ -51,7 +52,7 @@ const SinglePost = () => {
             <p className="flex items-center justify-start gap-2">
               <span>Oblivion Isme</span>
               <FaArrowRight />
-              <span className="text-xs">Kevin Alexander</span>
+              <Link to='/othersProfile'> Kevin Alexander</Link>
               <span className="text-[16px] profile-user">@kevinalexa3546</span>
             </p>
             <p className="flex items-center gap-3">
