@@ -17,3 +17,51 @@
     font-style: normal;
     font-weight: 600;
 }
+
+.post-dp {
+    width: 77px;
+    height: 65px;
+    flex-shrink: 0;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 12px;
+    border-image: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%) 1;
+    background:
+        linear-gradient(#0A123E, #0A123E)padding-box,
+        linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%)border-box;
+}
+
+.timeline-photos {
+    width: 798px;
+    margin: 0 auto;
+    background-color: #0A123E;
+    margin-top: 15px;
+    border-radius: 12px;
+    height: 1000px;
+}
+
+.no-photos {
+    width: 103px;
+    height: 103px;
+    flex-shrink: 0;
+    background-color: #050C36;
+    border-radius: 50%;
+    border: none;
+}
+
+.active .sub-icon {
+    color: #050C36;
+
+}
+
+.active .change-bg {
+    background: linear-gradient(139.69deg, #00E7FC 2.07%, #EC46E5 98.58%);
+}
+
+.sub-icon {
+    color: #00E7FC;
+}
+
+.change-bg {
+    background-color: #050C36;
+}

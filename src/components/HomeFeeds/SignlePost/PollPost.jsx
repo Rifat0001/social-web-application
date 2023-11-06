@@ -12,7 +12,6 @@ import {
     FaTrashAlt,
 } from "react-icons/fa";
 import { HiOutlineBookmarkAlt } from "react-icons/hi";
-import "./SinglePost.css";
 import Sicon from "../../../assets/CreatePost/Sicon.png";
 import "./SinglePost.css";
 import CommentSection from "./CommentSection";
@@ -55,23 +54,22 @@ const PollPost = () => {
                     <div className="poll-section z-10">
                         <form action="">
                             <label className="relative">
-                                <input type="radio" id="google" name="radio" />
-                                <span className="">
+                                <input type="radio" id="google" name="radio" checked /> {/* Add 'checked' here */}
+                                <span className="w-[610px]">
                                     <p>Google</p>
                                     <p className="absolute right-12">89%</p>
                                 </span>
-
                             </label>
-                            <label className="relative">
+                            <label className="relative w-[610px]">
                                 <input type="radio" id="defont" name="radio" />
-                                <span className="">
+                                <span className="w-[610px]">
                                     <p>Defont</p>
                                     <p className="absolute right-12">90%</p>
                                 </span>
-
                             </label>
                         </form>
                     </div>
+
                     <div className="text-end">
                         <div className="stats shadow bg-[rgba(255,255,255,0.10)] rounded-[12px] border-y-[1px]">
                             <div className="flex items-center justify-center gap-3 px-2">

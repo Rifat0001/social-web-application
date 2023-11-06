@@ -52,7 +52,7 @@ const SinglePost = () => {
             <p className="flex items-center justify-start gap-2">
               <span>Oblivion Isme</span>
               <FaArrowRight />
-              <Link to='/othersProfile'> Kevin Alexander</Link>
+              <Link to='/othersProfile/timeline/feeds'> Kevin Alexander</Link>
               <span className="text-[16px] profile-user">@kevinalexa3546</span>
             </p>
             <p className="flex items-center gap-3">

@@ -11,7 +11,6 @@ const TimelineOthers = () => {
             <PostinTimeline></PostinTimeline>
             {/* sub category section started  */}
             <SubCateOthers></SubCateOthers>
-
             {/* timeline posts starts here  */}
             <Outlet></Outlet>
         </div>

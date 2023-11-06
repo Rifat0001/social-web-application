@@ -1,10 +1,13 @@
 import image3 from "../../../../assets/CreatePost/person-2.png";
 import fire from "../../../../assets/CreatePost/fire.png";
-import img from "../../../../assets/reply/eventp.png";
-import eye from '../../../../assets/eye.png'
+// import img from "../../../../assets/reply/eventp.png";
+import loop from '../../../../assets/reply/event-loop.png'
+import stat from '../../../../assets/reply/stat.png'
+import img from '../../../../assets/OthersPages/Commons/Dp.png'
 import {
     FaEllipsisH,
     FaExclamationCircle,
+
     FaHeart,
     FaRegComments,
     FaTrashAlt,
@@ -13,20 +16,19 @@ import { HiOutlineBookmarkAlt } from "react-icons/hi";
 import Sicon from "../../../../assets/CreatePost/Sicon.png";
 import Reply from "../../../../components/HomeFeeds/SignlePost/Reply";
 import CommentSection from "../../../../components/HomeFeeds/SignlePost/CommentSection";
-import VideoComponent from "../../../../components/HomeFeeds/SignlePost/VideoComponent";
-const FifthPost = () => {
+const OtherSecond = () => {
     return (
-        <div className="mx-6 px-3 py-5 text-white relative">
-            <div className="pb-5 videoLine-timeline ">
+        <div className="  relative mx-6 px-3 py-5 text-white">
+            <div className="pb-5 poli-x ">
                 <div className="flex items-start justify-between">
                     <div className="flex items-center justify-start gap-5">
-                        <img src={img} alt="" />
+                        <img src={img} className="post-dp" alt="" />
 
                         <div className="flex-col">
                             <p className="flex items-center justify-start gap-2">
                                 <span>Aliyan Farooq musk</span>
 
-                                <span className="text-[10px]">shared a video</span>
+                                <span className="text-[10px] flex items-center"><img src={loop} alt="" /> Looped a event</span>
                             </p>
                             <p className="flex items-center gap-3">
                                 <span className="text-[16px] profile-user">@aliyan11</span>
@@ -38,23 +40,41 @@ const FifthPost = () => {
                     </div>
                     <div className="flex-none">
                         <button className="btn btn-square btn-ghost">
-                            <FaEllipsisH size={30} />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none">
+                                <path d="M-7.14478e-08 1.63453L6 8.59L12 1.63454L10.59 -6.16331e-08L6 5.30934L1.41 -4.62904e-07L-7.14478e-08 1.63453Z" fill="#EDEDED" />
+                            </svg>
                         </button>
                     </div>
                 </div>
-                <div className="space-y-[40px]">
-                    <div className="ms-20 ">
-                        {/* todo add video  */}
-                        <div className="event-sec">
-                            <VideoComponent></VideoComponent>
-                        </div>
-                        <div className="flex gap-2 absolute right-[15px] mt-2">
-                            <img src={eye} alt="" /> <p className="skinny">1000 k</p>
-                        </div>
+                {/* poll start from here  */}
+                <div className="relative  space-y-[40px] ms-24">
+                    <p>What is better?</p>
+                    <div className="flex absolute bottom-12 right-0 z-20 border state rounded-xl items-center w-[180px] h-[28px]">
+                        <img className="ms-4" src={stat} alt="" />
+                        <p className="text-xs ms-4">59 total votes</p>
+                    </div>
+                    <div className=" z-10">
+                        <form action="">
+                            <label className="relative">
+                                <input type="radio" id="google" name="radio" checked /> {/* Add 'checked' here */}
+                                <span className="w-[630px]">
+                                    <p>Google</p>
+                                    <p className="absolute right-8">89%</p>
+                                </span>
+                            </label>
+                            <label className="relative w-[610px]">
+                                <input type="radio" id="defont" name="radio" />
+                                <span className="w-[630px]">
+                                    <p>Defont</p>
+                                    <p className="absolute right-4">90% ></p>
+
+                                </span>
+                            </label>
+                        </form>
                     </div>
 
                     <div className="text-end">
-                        <div className="stats  shadow bg-[rgba(255,255,255,0.10)] rounded-[12px] border-y-[1px]">
+                        <div className="stats shadow bg-[rgba(255,255,255,0.10)] rounded-[12px] border-y-[1px]">
                             <div className="flex items-center justify-center gap-3 px-2">
                                 <div className=" text-white">200.8K</div>
                                 <FaHeart color="#FF0000" />
@@ -73,20 +93,18 @@ const FifthPost = () => {
                                 <img src={Sicon} alt="" />
                             </div>
                         </div>
-                        <div className="ps-14">
-                            <div className="divider bg-[#EC46E5] w-full h-[1px]"></div>
-                        </div>
-                        {/* <div className="ps-10 flex justify-end">
-                        <div className="divider  bg-[#EC46E5] w-[98%] h-[1px]"></div>
-                    </div> */}
+
                     </div>
                 </div>
             </div>
+            <div className="ps-14">
+                <div className="divider bg-[#EC46E5] w-full h-[1px]"></div>
+            </div>
             <div className="">
                 {/* <!-- Card 1 --> */}
-                <div className="transform ps-10 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
+                <div className="transform ps-16 transition cursor-pointer  ml-10 relative flex items-center px-6 py-4 text-white rounded mb-1 flex-col md:flex-row space-y-4 md:space-y-0">
                     {/* <!-- Line that connecting the box with the vertical line --> */}
-                    <div className="w-8 h-0.5 bg-[#00E7FC] absolute top-8 left-[5px] z-0"></div>
+                    <div className="w-14 h-0.5 bg-[#00E7FC] absolute top-8 left-[0px] z-0"></div>
 
                     {/* <!-- Content that showing in the box --> */}
                     <div className="time2">
@@ -135,8 +153,8 @@ const FifthPost = () => {
                     </div>
                 </div>
                 <Reply></Reply>
-                <div className=" ">
-                    <div className="divider2    h-[1px]"></div>
+                <div className=" flex ">
+                    <div className="  my-3 bg-[#EC46E5] w-[100%] h-[1px]"></div>
                 </div>
                 <CommentSection></CommentSection>
             </div>
@@ -144,4 +162,4 @@ const FifthPost = () => {
     );
 };
 
-export default FifthPost;
+export default OtherSecond;
